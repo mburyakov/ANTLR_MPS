@@ -314,7 +314,7 @@
     <node concept="Wx3nA" id="4TtYrYGuXmw" role="jymVt">
       <property role="TrG5h" value="LOG" />
       <node concept="2YIFZM" id="Hn0$MvbYou" role="33vP2m">
-        <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class):org.apache.log4j.Logger" resolve="getLogger" />
+        <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
         <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
         <node concept="3VsKOn" id="Hn0$MvbYov" role="37wK5m">
           <ref role="3VsUkX" node="4TtYrYGuX3e" resolve="AntlrPaster" />
@@ -379,7 +379,7 @@
                 </node>
                 <node concept="2OqwBi" id="4TtYrYGuXn0" role="37wK5m">
                   <node concept="liA8E" id="4TtYrYGuXn2" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                    <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
                   </node>
                   <node concept="37vLTw" id="2BHiRxgm$PP" role="2Oq$k0">
                     <ref role="3cqZAo" node="4TtYrYGuXmG" resolve="anchor" />
@@ -402,7 +402,7 @@
               <ref role="3cqZAo" node="4TtYrYGuXmO" resolve="clipboardText" />
             </node>
             <node concept="liA8E" id="v1yTSnrHIp" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="Xl_RD" id="v1yTSnrIEd" role="37wK5m">
                 <property role="Xl_RC" value="grammar " />
               </node>
@@ -427,7 +427,7 @@
                       <ref role="3cqZAo" node="4TtYrYGuXmG" resolve="anchor" />
                     </node>
                     <node concept="liA8E" id="v1yTSnrLvo" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~SNode.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                      <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="v1yTSnrLzw" role="37wK5m">
@@ -543,10 +543,10 @@
           <node concept="2OqwBi" id="4TtYrYGuXnC" role="1DdaDG">
             <node concept="2YIFZM" id="4TtYrYGuXnD" role="2Oq$k0">
               <ref role="1Pybhc" to="ddhc:~CopyPasteManagerEx" resolve="CopyPasteManagerEx" />
-              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx():com.intellij.ide.CopyPasteManagerEx" resolve="getInstanceEx" />
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx()" resolve="getInstanceEx" />
             </node>
             <node concept="liA8E" id="4TtYrYGuXnE" role="2OqNvi">
-              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getAllContents():java.awt.datatransfer.Transferable[]" resolve="getAllContents" />
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getAllContents()" resolve="getAllContents" />
             </node>
           </node>
           <node concept="3cpWsn" id="4TtYrYGuXnF" role="1Duv9x">
@@ -569,7 +569,7 @@
                     <ref role="3cqZAo" node="4TtYrYGuXnF" resolve="trf" />
                   </node>
                   <node concept="liA8E" id="4TtYrYGuXnP" role="2OqNvi">
-                    <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor):boolean" resolve="isDataFlavorSupported" />
+                    <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)" resolve="isDataFlavorSupported" />
                     <node concept="10M0yZ" id="4TtYrYGuXnQ" role="37wK5m">
                       <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
                       <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
@@ -618,7 +618,7 @@
                     </node>
                     <node concept="2OqwBi" id="4TtYrYGuXou" role="33vP2m">
                       <node concept="liA8E" id="4TtYrYGuXow" role="2OqNvi">
-                        <ref role="37wK5l" to="kt01:~Transferable.getTransferData(java.awt.datatransfer.DataFlavor):java.lang.Object" resolve="getTransferData" />
+                        <ref role="37wK5l" to="kt01:~Transferable.getTransferData(java.awt.datatransfer.DataFlavor)" resolve="getTransferData" />
                         <node concept="10M0yZ" id="4TtYrYGuXox" role="37wK5m">
                           <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
                           <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
@@ -681,7 +681,7 @@
                         <ref role="1PxDUh" node="4TtYrYGuX3e" resolve="AntlrPaster" />
                       </node>
                       <node concept="liA8E" id="4TtYrYGuXom" role="2OqNvi">
-                        <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable):void" resolve="error" />
+                        <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable)" resolve="error" />
                         <node concept="10Nm6u" id="4t57iE9W2BO" role="37wK5m" />
                         <node concept="37vLTw" id="3GM_nagTvJU" role="37wK5m">
                           <ref role="3cqZAo" node="4TtYrYGuXoo" resolve="ex" />
@@ -698,7 +698,7 @@
               <ref role="3cqZAo" node="4TtYrYGuXn$" resolve="contents" />
             </node>
             <node concept="liA8E" id="4TtYrYGuXo7" role="2OqNvi">
-              <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor):boolean" resolve="isDataFlavorSupported" />
+              <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)" resolve="isDataFlavorSupported" />
               <node concept="10M0yZ" id="4TtYrYGuXo8" role="37wK5m">
                 <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
                 <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
@@ -724,7 +724,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="v1yTSnr0yf" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
               </node>
             </node>
             <node concept="3uibUv" id="v1yTSnr0yg" role="1tU5fm">
@@ -795,7 +795,7 @@
                     <ref role="3cqZAo" node="v1yTSnr0yu" resolve="parser" />
                   </node>
                   <node concept="liA8E" id="v1yTSnr0yE" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser.grammarSpec():org.antlr.ANTLRv4Parser$GrammarSpecContext" resolve="grammarSpec" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser.grammarSpec()" resolve="grammarSpec" />
                   </node>
                 </node>
               </node>
@@ -1099,7 +1099,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="256tImPkKAx" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
               </node>
             </node>
             <node concept="3uibUv" id="4TtYrYGuXoX" role="1tU5fm">
@@ -1170,7 +1170,7 @@
                     <ref role="3cqZAo" node="6cuUYchjQYU" resolve="parser" />
                   </node>
                   <node concept="liA8E" id="6cuUYchjTQz" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser.rules():org.antlr.ANTLRv4Parser$RulesContext" resolve="rules" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser.rules()" resolve="rules" />
                   </node>
                 </node>
               </node>
@@ -1195,17 +1195,17 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="v1yTSnqXxk" role="2OqNvi">
-                      <ref role="37wK5l" to="p3ir:~RuleContext.save(org.antlr.v4.runtime.Parser,java.lang.String):void" resolve="save" />
+                      <ref role="37wK5l" to="p3ir:~RuleContext.save(org.antlr.v4.runtime.Parser,java.lang.String)" resolve="save" />
                       <node concept="37vLTw" id="v1yTSnqXxA" role="37wK5m">
                         <ref role="3cqZAo" node="6cuUYchjQYU" resolve="parser" />
                       </node>
                       <node concept="2OqwBi" id="v1yTSnqXxm" role="37wK5m">
                         <node concept="2YIFZM" id="v1yTSnqXxn" role="2Oq$k0">
-                          <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                          <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                           <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
                         </node>
                         <node concept="liA8E" id="v1yTSnqXxo" role="2OqNvi">
-                          <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                          <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                           <node concept="Xl_RD" id="v1yTSnqXxp" role="37wK5m">
                             <property role="Xl_RC" value="${ANTLR_HOME}/tree.ps" />
                           </node>
@@ -1426,17 +1426,17 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="v1yTSns1yt" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~RuleContext.save(org.antlr.v4.runtime.Parser,java.lang.String):void" resolve="save" />
+                  <ref role="37wK5l" to="p3ir:~RuleContext.save(org.antlr.v4.runtime.Parser,java.lang.String)" resolve="save" />
                   <node concept="37vLTw" id="v1yTSns1yu" role="37wK5m">
                     <ref role="3cqZAo" node="v1yTSnqXx$" resolve="parser" />
                   </node>
                   <node concept="2OqwBi" id="v1yTSns1yv" role="37wK5m">
                     <node concept="2YIFZM" id="v1yTSns1yw" role="2Oq$k0">
                       <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                     </node>
                     <node concept="liA8E" id="v1yTSns1yx" role="2OqNvi">
-                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                       <node concept="Xl_RD" id="v1yTSns1yy" role="37wK5m">
                         <property role="Xl_RC" value="${ANTLR_HOME}/tree.ps" />
                       </node>
@@ -1482,10 +1482,10 @@
             <property role="TrG5h" value="trf" />
             <node concept="2OqwBi" id="4UmDqAIXa7o" role="33vP2m">
               <node concept="liA8E" id="4UmDqAIXa7s" role="2OqNvi">
-                <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getContents():java.awt.datatransfer.Transferable" resolve="getContents" />
+                <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getContents()" resolve="getContents" />
               </node>
               <node concept="2YIFZM" id="4UmDqAIXa7n" role="2Oq$k0">
-                <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx():com.intellij.ide.CopyPasteManagerEx" resolve="getInstanceEx" />
+                <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx()" resolve="getInstanceEx" />
                 <ref role="1Pybhc" to="ddhc:~CopyPasteManagerEx" resolve="CopyPasteManagerEx" />
               </node>
             </node>
@@ -1511,7 +1511,7 @@
             </node>
             <node concept="2OqwBi" id="4UmDqAIX8uV" role="3uHU7w">
               <node concept="liA8E" id="4UmDqAIX8uX" role="2OqNvi">
-                <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor):boolean" resolve="isDataFlavorSupported" />
+                <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)" resolve="isDataFlavorSupported" />
                 <node concept="10M0yZ" id="4UmDqAIX8uY" role="37wK5m">
                   <ref role="3cqZAo" to="dp1x:5tGs5KqKj8z" resolve="sNode" />
                   <ref role="1PxDUh" to="dp1x:5tGs5KqKiwp" resolve="SModelDataFlavor" />
@@ -1533,7 +1533,7 @@
           </node>
           <node concept="2OqwBi" id="4UmDqAIX8v4" role="3clFbw">
             <node concept="liA8E" id="4UmDqAIX8v6" role="2OqNvi">
-              <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor):boolean" resolve="isDataFlavorSupported" />
+              <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)" resolve="isDataFlavorSupported" />
               <node concept="10M0yZ" id="4UmDqAIX8v7" role="37wK5m">
                 <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
                 <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
@@ -1596,7 +1596,7 @@
       <node concept="3clFbS" id="2jPIZBPAds1" role="3clF47">
         <node concept="3clFbF" id="2jPIZBPAds5" role="3cqZAp">
           <node concept="3nyPlj" id="2jPIZBPAds4" role="3clFbG">
-            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitRules(org.antlr.ANTLRv4Parser$RulesContext):java.lang.Object" resolve="visitRules" />
+            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitRules(org.antlr.ANTLRv4Parser$RulesContext)" resolve="visitRules" />
             <node concept="37vLTw" id="2jPIZBPAds3" role="37wK5m">
               <ref role="3cqZAo" node="2jPIZBPAdrX" resolve="context" />
             </node>
@@ -1624,7 +1624,7 @@
                 <ref role="3cqZAo" node="2jPIZBPAdrX" resolve="context" />
               </node>
               <node concept="liA8E" id="2jPIZBPAh0i" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RulesContext.ruleSpec():java.util.List" resolve="ruleSpec" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RulesContext.ruleSpec()" resolve="ruleSpec" />
               </node>
             </node>
             <node concept="1_o_bG" id="2jPIZBPAgcE" role="1_o_aQ">
@@ -1643,7 +1643,7 @@
                       <ref role="ehGHo" to="ubjp:6cuUYchcHwS" resolve="ParserRule" />
                     </node>
                     <node concept="1rXfSq" id="2jPIZBPArHS" role="10QFUP">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitRuleSpec(org.antlr.ANTLRv4Parser$RuleSpecContext):java.lang.Object" resolve="visitRuleSpec" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitRuleSpec(org.antlr.ANTLRv4Parser$RuleSpecContext)" resolve="visitRuleSpec" />
                       <node concept="3M$PaV" id="2jPIZBPAs20" role="37wK5m">
                         <ref role="3M$S_o" node="2jPIZBPAgcE" resolve="r" />
                       </node>
@@ -1690,7 +1690,7 @@
       <node concept="3clFbS" id="7a2u8aSJRTB" role="3clF47">
         <node concept="3clFbF" id="7a2u8aSJRTF" role="3cqZAp">
           <node concept="3nyPlj" id="7a2u8aSJRTE" role="3clFbG">
-            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitParserRuleSpec(org.antlr.ANTLRv4Parser$ParserRuleSpecContext):java.lang.Object" resolve="visitParserRuleSpec" />
+            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitParserRuleSpec(org.antlr.ANTLRv4Parser$ParserRuleSpecContext)" resolve="visitParserRuleSpec" />
             <node concept="37vLTw" id="7a2u8aSJRTD" role="37wK5m">
               <ref role="3cqZAo" node="7a2u8aSJRTz" resolve="context" />
             </node>
@@ -1719,11 +1719,11 @@
                   <ref role="3cqZAo" node="7a2u8aSJRTz" resolve="context" />
                 </node>
                 <node concept="liA8E" id="7a2u8aSJZBT" role="2OqNvi">
-                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ParserRuleSpecContext.RULE_REF():org.antlr.v4.runtime.tree.TerminalNode" resolve="RULE_REF" />
+                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ParserRuleSpecContext.RULE_REF()" resolve="RULE_REF" />
                 </node>
               </node>
               <node concept="liA8E" id="7a2u8aSK0AV" role="2OqNvi">
-                <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
               </node>
             </node>
             <node concept="2OqwBi" id="7a2u8aSJVl_" role="37vLTJ">
@@ -1747,7 +1747,7 @@
                 <ref role="3cqZAo" node="7a2u8aSJRTz" resolve="context" />
               </node>
               <node concept="liA8E" id="7a2u8aSK5u6" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ParserRuleSpecContext.RULE_REF():org.antlr.v4.runtime.tree.TerminalNode" resolve="RULE_REF" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ParserRuleSpecContext.RULE_REF()" resolve="RULE_REF" />
               </node>
             </node>
           </node>
@@ -1762,7 +1762,7 @@
                   <ref role="3cqZAo" node="7a2u8aSK5u2" resolve="node" />
                 </node>
                 <node concept="liA8E" id="7a2u8aSK5ud" role="2OqNvi">
-                  <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                 </node>
               </node>
               <node concept="Xl_RD" id="7a2u8aSK5ue" role="3K4E3e">
@@ -1793,7 +1793,7 @@
                         <ref role="3cqZAo" node="7a2u8aSJRTz" resolve="context" />
                       </node>
                       <node concept="liA8E" id="7a2u8aSKxn_" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ParserRuleSpecContext.ruleBlock():org.antlr.ANTLRv4Parser$RuleBlockContext" resolve="ruleBlock" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ParserRuleSpecContext.ruleBlock()" resolve="ruleBlock" />
                       </node>
                     </node>
                   </node>
@@ -1826,7 +1826,7 @@
                 <ref role="3cqZAo" node="7a2u8aSJRTz" resolve="context" />
               </node>
               <node concept="liA8E" id="QPXbEiU9A_" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ParserRuleSpecContext.ruleBlock():org.antlr.ANTLRv4Parser$RuleBlockContext" resolve="ruleBlock" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ParserRuleSpecContext.ruleBlock()" resolve="ruleBlock" />
               </node>
             </node>
           </node>
@@ -1865,7 +1865,7 @@
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3clFbF" id="7a2u8aSKyrl" role="8Wnug">
             <node concept="3nyPlj" id="7a2u8aSKyrk" role="3clFbG">
-              <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitRuleBlock(org.antlr.ANTLRv4Parser$RuleBlockContext):java.lang.Object" resolve="visitRuleBlock" />
+              <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitRuleBlock(org.antlr.ANTLRv4Parser$RuleBlockContext)" resolve="visitRuleBlock" />
               <node concept="37vLTw" id="7a2u8aSKyrj" role="37wK5m">
                 <ref role="3cqZAo" node="7a2u8aSKyrd" resolve="context" />
               </node>
@@ -1899,7 +1899,7 @@
                           <ref role="3cqZAo" node="7a2u8aSKyrd" resolve="context" />
                         </node>
                         <node concept="liA8E" id="7TXZmqyFqTA" role="2OqNvi">
-                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RuleBlockContext.ruleAltList():org.antlr.ANTLRv4Parser$RuleAltListContext" resolve="ruleAltList" />
+                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RuleBlockContext.ruleAltList()" resolve="ruleAltList" />
                         </node>
                       </node>
                     </node>
@@ -1930,7 +1930,7 @@
                 <ref role="3cqZAo" node="7a2u8aSKyrd" resolve="context" />
               </node>
               <node concept="liA8E" id="Yz8ITmQixF" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RuleBlockContext.ruleAltList():org.antlr.ANTLRv4Parser$RuleAltListContext" resolve="ruleAltList" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RuleBlockContext.ruleAltList()" resolve="ruleAltList" />
               </node>
             </node>
           </node>
@@ -1970,7 +1970,7 @@
       <node concept="3clFbS" id="1tv9AyCxllV" role="3clF47">
         <node concept="3clFbF" id="1tv9AyCxllZ" role="3cqZAp">
           <node concept="3nyPlj" id="1tv9AyCxllY" role="3clFbG">
-            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerAltList(org.antlr.ANTLRv4Parser$LexerAltListContext):java.lang.Object" resolve="visitLexerAltList" />
+            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerAltList(org.antlr.ANTLRv4Parser$LexerAltListContext)" resolve="visitLexerAltList" />
             <node concept="37vLTw" id="1tv9AyCxllX" role="37wK5m">
               <ref role="3cqZAo" node="1tv9AyCxllR" resolve="context" />
             </node>
@@ -2005,7 +2005,7 @@
                 <ref role="3cqZAo" node="1tv9AyCxllR" resolve="context" />
               </node>
               <node concept="liA8E" id="1tv9AyCwZW2" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAltListContext.lexerAlt():java.util.List" resolve="lexerAlt" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAltListContext.lexerAlt()" resolve="lexerAlt" />
               </node>
             </node>
           </node>
@@ -2024,7 +2024,7 @@
                   <ref role="3cqZAo" node="1tv9AyCwZVX" resolve="elements" />
                 </node>
                 <node concept="liA8E" id="1tv9AyCwZW8" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                  <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                 </node>
               </node>
             </node>
@@ -2075,7 +2075,7 @@
                 <ref role="3cqZAo" node="1tv9AyCwZVX" resolve="elements" />
               </node>
               <node concept="liA8E" id="1tv9AyCwZWD" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
               </node>
             </node>
             <node concept="3cmrfG" id="4TgqxIxuHR8" role="3uHU7w">
@@ -2142,7 +2142,7 @@
                 <ref role="3cqZAo" node="7a2u8aSKDNU" resolve="context" />
               </node>
               <node concept="liA8E" id="1tv9AyCt8ns" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AlternativeContext.element():java.util.List" resolve="element" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AlternativeContext.element()" resolve="element" />
               </node>
             </node>
           </node>
@@ -2161,7 +2161,7 @@
                   <ref role="3cqZAo" node="1tv9AyCt8np" resolve="elements" />
                 </node>
                 <node concept="liA8E" id="1tv9AyCuIWY" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                  <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                 </node>
               </node>
             </node>
@@ -2244,7 +2244,7 @@
                 <ref role="3cqZAo" node="1tv9AyCt8np" resolve="elements" />
               </node>
               <node concept="liA8E" id="2jPIZBPzDSt" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
               </node>
             </node>
           </node>
@@ -2273,7 +2273,7 @@
                               <ref role="3cqZAo" node="1tv9AyCt8np" resolve="elements" />
                             </node>
                             <node concept="liA8E" id="2jPIZBP_lSc" role="2OqNvi">
-                              <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                              <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
                               <node concept="3cmrfG" id="2jPIZBP_mSE" role="37wK5m">
                                 <property role="3cmrfH" value="0" />
                               </node>
@@ -2293,7 +2293,7 @@
                       <ref role="3cqZAo" node="1tv9AyCt8np" resolve="elements" />
                     </node>
                     <node concept="liA8E" id="4L89IP5aPtv" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                      <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                     </node>
                   </node>
                 </node>
@@ -2331,7 +2331,7 @@
       <node concept="3clFbS" id="1tv9AyCuWTw" role="3clF47">
         <node concept="3clFbF" id="1tv9AyCuWT$" role="3cqZAp">
           <node concept="3nyPlj" id="1tv9AyCuWTz" role="3clFbG">
-            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitRuleAltList(org.antlr.ANTLRv4Parser$RuleAltListContext):java.lang.Object" resolve="visitRuleAltList" />
+            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitRuleAltList(org.antlr.ANTLRv4Parser$RuleAltListContext)" resolve="visitRuleAltList" />
             <node concept="37vLTw" id="1tv9AyCuWTy" role="37wK5m">
               <ref role="3cqZAo" node="1tv9AyCuWTs" resolve="context" />
             </node>
@@ -2363,7 +2363,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1tv9AyCvOL0" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.clear():void" resolve="clear" />
+              <ref role="37wK5l" to="33ny:~List.clear()" resolve="clear" />
             </node>
           </node>
         </node>
@@ -2403,7 +2403,7 @@
               <ref role="3cqZAo" node="1tv9AyCuWTs" resolve="context" />
             </node>
             <node concept="liA8E" id="1tv9AyCvbUR" role="2OqNvi">
-              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RuleAltListContext.labeledAlt():java.util.List" resolve="labeledAlt" />
+              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RuleAltListContext.labeledAlt()" resolve="labeledAlt" />
             </node>
           </node>
         </node>
@@ -2459,7 +2459,7 @@
                         <ref role="3cqZAo" node="3xacAmuMHl" resolve="context" />
                       </node>
                       <node concept="liA8E" id="3xacAmvjjL" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledAltContext.alternative():org.antlr.ANTLRv4Parser$AlternativeContext" resolve="alternative" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledAltContext.alternative()" resolve="alternative" />
                       </node>
                     </node>
                   </node>
@@ -2477,7 +2477,7 @@
                 <ref role="3cqZAo" node="3xacAmuMHl" resolve="context" />
               </node>
               <node concept="liA8E" id="3xacAmvwH8" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledAltContext.alternative():org.antlr.ANTLRv4Parser$AlternativeContext" resolve="alternative" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledAltContext.alternative()" resolve="alternative" />
               </node>
             </node>
           </node>
@@ -2492,11 +2492,11 @@
                       <ref role="3cqZAo" node="3xacAmuMHl" resolve="context" />
                     </node>
                     <node concept="liA8E" id="6Q37mFf71Or" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledAltContext.id():org.antlr.ANTLRv4Parser$IdContext" resolve="id" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledAltContext.id()" resolve="id" />
                     </node>
                   </node>
                   <node concept="liA8E" id="6Q37mFf72tz" role="2OqNvi">
-                    <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="6Q37mFf6Zyz" role="37vLTJ">
@@ -2532,7 +2532,7 @@
                 <ref role="3cqZAo" node="3xacAmuMHl" resolve="context" />
               </node>
               <node concept="liA8E" id="6Q37mFf6yvg" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledAltContext.POUND():org.antlr.v4.runtime.tree.TerminalNode" resolve="POUND" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledAltContext.POUND()" resolve="POUND" />
               </node>
             </node>
           </node>
@@ -2576,7 +2576,7 @@
                   <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
                 </node>
                 <node concept="liA8E" id="1tv9AyCuxti" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                 </node>
               </node>
               <node concept="Xl_RD" id="1tv9AyCuu5b" role="3uHU7B">
@@ -2609,15 +2609,15 @@
                           <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
                         </node>
                         <node concept="liA8E" id="4L89IP5dW9g" role="2OqNvi">
-                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnf():org.antlr.ANTLRv4Parser$EbnfContext" resolve="ebnf" />
+                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnf()" resolve="ebnf" />
                         </node>
                       </node>
                       <node concept="liA8E" id="4L89IP5dWZJ" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.block():org.antlr.ANTLRv4Parser$BlockContext" resolve="block" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.block()" resolve="block" />
                       </node>
                     </node>
                     <node concept="liA8E" id="4L89IP5dXWe" role="2OqNvi">
-                      <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                      <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="4L89IP5dGHo" role="3uHU7B">
@@ -2636,7 +2636,7 @@
                         <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
                       </node>
                       <node concept="liA8E" id="4L89IP5bXJY" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnf():org.antlr.ANTLRv4Parser$EbnfContext" resolve="ebnf" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnf()" resolve="ebnf" />
                       </node>
                     </node>
                   </node>
@@ -2669,11 +2669,11 @@
                     <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
                   </node>
                   <node concept="liA8E" id="4L89IP5d1WJ" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnf():org.antlr.ANTLRv4Parser$EbnfContext" resolve="ebnf" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnf()" resolve="ebnf" />
                   </node>
                 </node>
                 <node concept="liA8E" id="4L89IP5d2NV" role="2OqNvi">
-                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.block():org.antlr.ANTLRv4Parser$BlockContext" resolve="block" />
+                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.block()" resolve="block" />
                 </node>
               </node>
             </node>
@@ -2683,7 +2683,7 @@
                   <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
                 </node>
                 <node concept="liA8E" id="4L89IP5bJDm" role="2OqNvi">
-                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnf():org.antlr.ANTLRv4Parser$EbnfContext" resolve="ebnf" />
+                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnf()" resolve="ebnf" />
                 </node>
               </node>
               <node concept="10Nm6u" id="4L89IP5bN32" role="3uHU7w" />
@@ -2699,13 +2699,13 @@
                 </node>
                 <node concept="10QFUN" id="QPXbEiVhoM" role="37vLTx">
                   <node concept="1rXfSq" id="QPXbEiVfG$" role="10QFUP">
-                    <ref role="37wK5l" to="6xeh:~AbstractParseTreeVisitor.visit(org.antlr.v4.runtime.tree.ParseTree):java.lang.Object" resolve="visit" />
+                    <ref role="37wK5l" to="6xeh:~AbstractParseTreeVisitor.visit(org.antlr.v4.runtime.tree.ParseTree)" resolve="visit" />
                     <node concept="2OqwBi" id="QPXbEiVfYl" role="37wK5m">
                       <node concept="37vLTw" id="QPXbEiVfPA" role="2Oq$k0">
                         <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
                       </node>
                       <node concept="liA8E" id="QPXbEiVgzH" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.labeledElement():org.antlr.ANTLRv4Parser$LabeledElementContext" resolve="labeledElement" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.labeledElement()" resolve="labeledElement" />
                       </node>
                     </node>
                   </node>
@@ -2723,7 +2723,7 @@
                 <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
               </node>
               <node concept="liA8E" id="QPXbEiVc97" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.labeledElement():org.antlr.ANTLRv4Parser$LabeledElementContext" resolve="labeledElement" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.labeledElement()" resolve="labeledElement" />
               </node>
             </node>
           </node>
@@ -2740,7 +2740,7 @@
                         <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
                       </node>
                       <node concept="liA8E" id="v1yTSnNYUn" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.atom():org.antlr.ANTLRv4Parser$AtomContext" resolve="atom" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.atom()" resolve="atom" />
                       </node>
                     </node>
                   </node>
@@ -2761,7 +2761,7 @@
                 <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
               </node>
               <node concept="liA8E" id="1tv9AyCt_QY" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.atom():org.antlr.ANTLRv4Parser$AtomContext" resolve="atom" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.atom()" resolve="atom" />
               </node>
             </node>
           </node>
@@ -2779,7 +2779,7 @@
                     <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
                   </node>
                   <node concept="liA8E" id="1tv9AyCtx1z" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnfSuffix():org.antlr.ANTLRv4Parser$EbnfSuffixContext" resolve="ebnfSuffix" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnfSuffix()" resolve="ebnfSuffix" />
                   </node>
                 </node>
               </node>
@@ -2799,7 +2799,7 @@
                   <ref role="3cqZAo" node="1tv9AyCt9GG" resolve="context" />
                 </node>
                 <node concept="liA8E" id="QPXbEiWdyf" role="2OqNvi">
-                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnfSuffix():org.antlr.ANTLRv4Parser$EbnfSuffixContext" resolve="ebnfSuffix" />
+                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ElementContext.ebnfSuffix()" resolve="ebnfSuffix" />
                 </node>
               </node>
             </node>
@@ -2852,7 +2852,7 @@
                 <ref role="3cqZAo" node="v1yTSnIenn" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSnOBZS" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AtomContext.DOT():org.antlr.v4.runtime.tree.TerminalNode" resolve="DOT" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AtomContext.DOT()" resolve="DOT" />
               </node>
             </node>
           </node>
@@ -2867,7 +2867,7 @@
                     <ref role="3cqZAo" node="v1yTSnIenn" resolve="context" />
                   </node>
                   <node concept="liA8E" id="v1yTSocoQ1" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AtomContext.terminal():org.antlr.ANTLRv4Parser$TerminalContext" resolve="terminal" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AtomContext.terminal()" resolve="terminal" />
                   </node>
                 </node>
               </node>
@@ -2880,7 +2880,7 @@
                 <ref role="3cqZAo" node="v1yTSnIenn" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSoc7ct" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AtomContext.terminal():org.antlr.ANTLRv4Parser$TerminalContext" resolve="terminal" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AtomContext.terminal()" resolve="terminal" />
               </node>
             </node>
           </node>
@@ -2900,7 +2900,7 @@
                 <ref role="3cqZAo" node="v1yTSnIenn" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSnPYmc" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AtomContext.elementOptions():org.antlr.ANTLRv4Parser$ElementOptionsContext" resolve="elementOptions" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AtomContext.elementOptions()" resolve="elementOptions" />
               </node>
             </node>
           </node>
@@ -2918,7 +2918,7 @@
                   <ref role="3cqZAo" node="v1yTSnIenn" resolve="context" />
                 </node>
                 <node concept="liA8E" id="v1yTSnIjR8" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                 </node>
               </node>
             </node>
@@ -2992,11 +2992,11 @@
                       <ref role="3cqZAo" node="v1yTSnHGSB" resolve="context" />
                     </node>
                     <node concept="liA8E" id="v1yTSnHS13" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.id():org.antlr.ANTLRv4Parser$IdContext" resolve="id" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.id()" resolve="id" />
                     </node>
                   </node>
                   <node concept="liA8E" id="v1yTSnHVJv" role="2OqNvi">
-                    <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="v1yTSnHPT6" role="37vLTJ">
@@ -3017,7 +3017,7 @@
                 <ref role="3cqZAo" node="v1yTSnHGSB" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSnLiTV" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.id():org.antlr.ANTLRv4Parser$IdContext" resolve="id" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.id()" resolve="id" />
               </node>
             </node>
           </node>
@@ -3034,7 +3034,7 @@
                         <ref role="3cqZAo" node="v1yTSnHGSB" resolve="context" />
                       </node>
                       <node concept="liA8E" id="v1yTSnI3Ra" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.atom():org.antlr.ANTLRv4Parser$AtomContext" resolve="atom" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.atom()" resolve="atom" />
                       </node>
                     </node>
                   </node>
@@ -3060,7 +3060,7 @@
                 <ref role="3cqZAo" node="v1yTSnHGSB" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSnI58l" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.atom():org.antlr.ANTLRv4Parser$AtomContext" resolve="atom" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.atom()" resolve="atom" />
               </node>
             </node>
           </node>
@@ -3077,7 +3077,7 @@
                         <ref role="3cqZAo" node="v1yTSnHGSB" resolve="context" />
                       </node>
                       <node concept="liA8E" id="v1yTSnIap1" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.block():org.antlr.ANTLRv4Parser$BlockContext" resolve="block" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.block()" resolve="block" />
                       </node>
                     </node>
                   </node>
@@ -3103,7 +3103,7 @@
                 <ref role="3cqZAo" node="v1yTSnHGSB" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSnI7CZ" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.block():org.antlr.ANTLRv4Parser$BlockContext" resolve="block" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.block()" resolve="block" />
               </node>
             </node>
           </node>
@@ -3139,7 +3139,7 @@
                 <ref role="3cqZAo" node="v1yTSnHGSB" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSnIIZE" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.ASSIGN():org.antlr.v4.runtime.tree.TerminalNode" resolve="ASSIGN" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.ASSIGN()" resolve="ASSIGN" />
               </node>
             </node>
           </node>
@@ -3175,7 +3175,7 @@
                 <ref role="3cqZAo" node="v1yTSnHGSB" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSnIPss" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.PLUS_ASSIGN():org.antlr.v4.runtime.tree.TerminalNode" resolve="PLUS_ASSIGN" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LabeledElementContext.PLUS_ASSIGN()" resolve="PLUS_ASSIGN" />
               </node>
             </node>
           </node>
@@ -3231,7 +3231,7 @@
                         <ref role="3cqZAo" node="QPXbEiXOip" resolve="context" />
                       </node>
                       <node concept="liA8E" id="QPXbEiXY$u" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.block():org.antlr.ANTLRv4Parser$BlockContext" resolve="block" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.block()" resolve="block" />
                       </node>
                     </node>
                   </node>
@@ -3257,11 +3257,11 @@
                               <ref role="3cqZAo" node="QPXbEiXOip" resolve="context" />
                             </node>
                             <node concept="liA8E" id="4L89IP5d5mo" role="2OqNvi">
-                              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.blockSuffix():org.antlr.ANTLRv4Parser$BlockSuffixContext" resolve="blockSuffix" />
+                              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.blockSuffix()" resolve="blockSuffix" />
                             </node>
                           </node>
                           <node concept="liA8E" id="4L89IP5d65k" role="2OqNvi">
-                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$BlockSuffixContext.ebnfSuffix():org.antlr.ANTLRv4Parser$EbnfSuffixContext" resolve="ebnfSuffix" />
+                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$BlockSuffixContext.ebnfSuffix()" resolve="ebnfSuffix" />
                           </node>
                         </node>
                       </node>
@@ -3275,11 +3275,11 @@
                           <ref role="3cqZAo" node="QPXbEiXOip" resolve="context" />
                         </node>
                         <node concept="liA8E" id="QPXbEiYa1P" role="2OqNvi">
-                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.blockSuffix():org.antlr.ANTLRv4Parser$BlockSuffixContext" resolve="blockSuffix" />
+                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.blockSuffix()" resolve="blockSuffix" />
                         </node>
                       </node>
                       <node concept="liA8E" id="QPXbEiYb5G" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$BlockSuffixContext.ebnfSuffix():org.antlr.ANTLRv4Parser$EbnfSuffixContext" resolve="ebnfSuffix" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$BlockSuffixContext.ebnfSuffix()" resolve="ebnfSuffix" />
                       </node>
                     </node>
                   </node>
@@ -3292,7 +3292,7 @@
                     <ref role="3cqZAo" node="QPXbEiXOip" resolve="context" />
                   </node>
                   <node concept="liA8E" id="QPXbEiY5_a" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.blockSuffix():org.antlr.ANTLRv4Parser$BlockSuffixContext" resolve="blockSuffix" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.blockSuffix()" resolve="blockSuffix" />
                   </node>
                 </node>
               </node>
@@ -3330,7 +3330,7 @@
                 <ref role="3cqZAo" node="QPXbEiXOip" resolve="context" />
               </node>
               <node concept="liA8E" id="QPXbEiXUh2" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.block():org.antlr.ANTLRv4Parser$BlockContext" resolve="block" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfContext.block()" resolve="block" />
               </node>
             </node>
           </node>
@@ -3398,7 +3398,7 @@
               <ref role="3cqZAo" node="QPXbEjpDig" resolve="context" />
             </node>
             <node concept="liA8E" id="QPXbEjsLQx" role="2OqNvi">
-              <ref role="37wK5l" to="p3ir:~ParserRuleContext.getStart():org.antlr.v4.runtime.Token" resolve="getStart" />
+              <ref role="37wK5l" to="p3ir:~ParserRuleContext.getStart()" resolve="getStart" />
             </node>
           </node>
         </node>
@@ -3417,11 +3417,11 @@
                   <ref role="3cqZAo" node="QPXbEjpDig" resolve="context" />
                 </node>
                 <node concept="liA8E" id="QPXbEjqhY5" role="2OqNvi">
-                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RangeContext.STRING_LITERAL():java.util.List" resolve="STRING_LITERAL" />
+                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RangeContext.STRING_LITERAL()" resolve="STRING_LITERAL" />
                 </node>
               </node>
               <node concept="liA8E" id="QPXbEjqlFb" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
               </node>
             </node>
             <node concept="3cmrfG" id="QPXbEjqniq" role="3uHU7w">
@@ -3448,18 +3448,18 @@
                       <ref role="3cqZAo" node="QPXbEjpDig" resolve="context" />
                     </node>
                     <node concept="liA8E" id="QPXbEjxP1m" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RangeContext.STRING_LITERAL():java.util.List" resolve="STRING_LITERAL" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RangeContext.STRING_LITERAL()" resolve="STRING_LITERAL" />
                     </node>
                   </node>
                   <node concept="liA8E" id="QPXbEjxP1n" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                    <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
                     <node concept="3cmrfG" id="QPXbEjxP1o" role="37wK5m">
                       <property role="3cmrfH" value="0" />
                     </node>
                   </node>
                 </node>
                 <node concept="liA8E" id="QPXbEjxP1p" role="2OqNvi">
-                  <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                 </node>
               </node>
             </node>
@@ -3480,11 +3480,11 @@
                   <ref role="3cqZAo" node="QPXbEjpDig" resolve="context" />
                 </node>
                 <node concept="liA8E" id="QPXbEjqzYc" role="2OqNvi">
-                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RangeContext.STRING_LITERAL():java.util.List" resolve="STRING_LITERAL" />
+                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RangeContext.STRING_LITERAL()" resolve="STRING_LITERAL" />
                 </node>
               </node>
               <node concept="liA8E" id="QPXbEjqzYd" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
               </node>
             </node>
             <node concept="3cmrfG" id="QPXbEjqDUU" role="3uHU7w">
@@ -3511,18 +3511,18 @@
                       <ref role="3cqZAo" node="QPXbEjpDig" resolve="context" />
                     </node>
                     <node concept="liA8E" id="QPXbEjy2Oc" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RangeContext.STRING_LITERAL():java.util.List" resolve="STRING_LITERAL" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$RangeContext.STRING_LITERAL()" resolve="STRING_LITERAL" />
                     </node>
                   </node>
                   <node concept="liA8E" id="QPXbEjy2Od" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                    <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
                     <node concept="3cmrfG" id="QPXbEjy3c3" role="37wK5m">
                       <property role="3cmrfH" value="1" />
                     </node>
                   </node>
                 </node>
                 <node concept="liA8E" id="QPXbEjy2Of" role="2OqNvi">
-                  <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                 </node>
               </node>
             </node>
@@ -3582,7 +3582,7 @@
               </node>
             </node>
             <node concept="liA8E" id="QPXbEjjS8f" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.clear():void" resolve="clear" />
+              <ref role="37wK5l" to="33ny:~List.clear()" resolve="clear" />
             </node>
           </node>
         </node>
@@ -3622,7 +3622,7 @@
               <ref role="3cqZAo" node="QPXbEjivlB" resolve="context" />
             </node>
             <node concept="liA8E" id="QPXbEjiBqc" role="2OqNvi">
-              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AltListContext.alternative():java.util.List" resolve="alternative" />
+              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$AltListContext.alternative()" resolve="alternative" />
             </node>
           </node>
         </node>
@@ -3684,7 +3684,7 @@
                     <ref role="3cqZAo" node="QPXbEiVwJ3" resolve="context" />
                   </node>
                   <node concept="liA8E" id="QPXbEiV$nZ" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$BlockContext.altList():org.antlr.ANTLRv4Parser$AltListContext" resolve="altList" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$BlockContext.altList()" resolve="altList" />
                   </node>
                 </node>
               </node>
@@ -3741,7 +3741,7 @@
       <node concept="3clFbS" id="4TgqxIxna_6" role="3clF47">
         <node concept="3clFbF" id="4TgqxIxna_a" role="3cqZAp">
           <node concept="3nyPlj" id="4TgqxIxna_9" role="3clFbG">
-            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerRule(org.antlr.ANTLRv4Parser$LexerRuleContext):java.lang.Object" resolve="visitLexerRule" />
+            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerRule(org.antlr.ANTLRv4Parser$LexerRuleContext)" resolve="visitLexerRule" />
             <node concept="37vLTw" id="4TgqxIxna_8" role="37wK5m">
               <ref role="3cqZAo" node="4TgqxIxna_2" resolve="context" />
             </node>
@@ -3782,7 +3782,7 @@
                         <ref role="3cqZAo" node="4TgqxIxna_2" resolve="context" />
                       </node>
                       <node concept="liA8E" id="4TgqxIxs46L" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleContext.lexerRuleBlock():org.antlr.ANTLRv4Parser$LexerRuleBlockContext" resolve="lexerRuleBlock" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleContext.lexerRuleBlock()" resolve="lexerRuleBlock" />
                       </node>
                     </node>
                   </node>
@@ -3800,7 +3800,7 @@
                 <ref role="3cqZAo" node="4TgqxIxna_2" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSnev0t" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleContext.lexerRuleBlock():org.antlr.ANTLRv4Parser$LexerRuleBlockContext" resolve="lexerRuleBlock" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleContext.lexerRuleBlock()" resolve="lexerRuleBlock" />
               </node>
             </node>
           </node>
@@ -3815,11 +3815,11 @@
                       <ref role="3cqZAo" node="4TgqxIxna_2" resolve="context" />
                     </node>
                     <node concept="liA8E" id="4TgqxIxt9FU" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleContext.TOKEN_REF():org.antlr.v4.runtime.tree.TerminalNode" resolve="TOKEN_REF" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleContext.TOKEN_REF()" resolve="TOKEN_REF" />
                     </node>
                   </node>
                   <node concept="liA8E" id="4TgqxIxtasD" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="4TgqxIxt7lV" role="37vLTJ">
@@ -3840,7 +3840,7 @@
                 <ref role="3cqZAo" node="4TgqxIxna_2" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSneE$b" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleContext.TOKEN_REF():org.antlr.v4.runtime.tree.TerminalNode" resolve="TOKEN_REF" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleContext.TOKEN_REF()" resolve="TOKEN_REF" />
               </node>
             </node>
           </node>
@@ -3875,7 +3875,7 @@
       <node concept="3clFbS" id="1tv9AyCxqGg" role="3clF47">
         <node concept="3clFbF" id="1tv9AyCxqGk" role="3cqZAp">
           <node concept="3nyPlj" id="1tv9AyCxqGj" role="3clFbG">
-            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerAlt(org.antlr.ANTLRv4Parser$LexerAltContext):java.lang.Object" resolve="visitLexerAlt" />
+            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerAlt(org.antlr.ANTLRv4Parser$LexerAltContext)" resolve="visitLexerAlt" />
             <node concept="37vLTw" id="1tv9AyCxqGi" role="37wK5m">
               <ref role="3cqZAo" node="1tv9AyCxqGc" resolve="context" />
             </node>
@@ -3913,7 +3913,7 @@
                         <ref role="3cqZAo" node="1tv9AyCxqGc" resolve="context" />
                       </node>
                       <node concept="liA8E" id="4TgqxIxnus1" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAltContext.lexerElements():org.antlr.ANTLRv4Parser$LexerElementsContext" resolve="lexerElements" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAltContext.lexerElements()" resolve="lexerElements" />
                       </node>
                     </node>
                   </node>
@@ -3948,7 +3948,7 @@
                 <ref role="3cqZAo" node="1tv9AyCxqGc" resolve="context" />
               </node>
               <node concept="liA8E" id="1tv9AyCxsav" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAltContext.lexerElements():org.antlr.ANTLRv4Parser$LexerElementsContext" resolve="lexerElements" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAltContext.lexerElements()" resolve="lexerElements" />
               </node>
             </node>
           </node>
@@ -4017,7 +4017,7 @@
                       <ref role="2Gs0qQ" node="v1yTSncrVq" resolve="id" />
                     </node>
                     <node concept="liA8E" id="v1yTSngO0c" role="2OqNvi">
-                      <ref role="37wK5l" to="p3ir:~RuleContext.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="p3ir:~RuleContext.toString()" resolve="toString" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="v1yTSngy7d" role="3uHU7B">
@@ -4048,7 +4048,7 @@
                     <ref role="2Gs0qQ" node="v1yTSncrVq" resolve="id" />
                   </node>
                   <node concept="liA8E" id="v1yTSncwiq" role="2OqNvi">
-                    <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="v1yTSnctfo" role="37vLTJ">
@@ -4084,7 +4084,7 @@
               <ref role="3cqZAo" node="v1yTSnc8DB" resolve="context" />
             </node>
             <node concept="liA8E" id="v1yTSncss0" role="2OqNvi">
-              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TokensSpecContext.id():java.util.List" resolve="id" />
+              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TokensSpecContext.id()" resolve="id" />
             </node>
           </node>
         </node>
@@ -4145,11 +4145,11 @@
                       <ref role="3cqZAo" node="v1yTSnipda" resolve="context" />
                     </node>
                     <node concept="liA8E" id="v1yTSno9S3" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.DOC_COMMENT():org.antlr.v4.runtime.tree.TerminalNode" resolve="DOC_COMMENT" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.DOC_COMMENT()" resolve="DOC_COMMENT" />
                     </node>
                   </node>
                   <node concept="liA8E" id="v1yTSnogkq" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                   </node>
                 </node>
               </node>
@@ -4162,7 +4162,7 @@
                 <ref role="3cqZAo" node="v1yTSnipda" resolve="context" />
               </node>
               <node concept="liA8E" id="1UP91OTW9e6" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.DOC_COMMENT():org.antlr.v4.runtime.tree.TerminalNode" resolve="DOC_COMMENT" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.DOC_COMMENT()" resolve="DOC_COMMENT" />
               </node>
             </node>
           </node>
@@ -4184,7 +4184,7 @@
                             <ref role="2Gs0qQ" node="v1yTSnj3Po" resolve="prequel" />
                           </node>
                           <node concept="liA8E" id="v1yTSnkO82" role="2OqNvi">
-                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$PrequelConstructContext.tokensSpec():org.antlr.ANTLRv4Parser$TokensSpecContext" resolve="tokensSpec" />
+                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$PrequelConstructContext.tokensSpec()" resolve="tokensSpec" />
                           </node>
                         </node>
                       </node>
@@ -4210,7 +4210,7 @@
                     <ref role="2Gs0qQ" node="v1yTSnj3Po" resolve="prequel" />
                   </node>
                   <node concept="liA8E" id="v1yTSnjqJY" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$PrequelConstructContext.tokensSpec():org.antlr.ANTLRv4Parser$TokensSpecContext" resolve="tokensSpec" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$PrequelConstructContext.tokensSpec()" resolve="tokensSpec" />
                   </node>
                 </node>
               </node>
@@ -4221,7 +4221,7 @@
               <ref role="3cqZAo" node="v1yTSnipda" resolve="context" />
             </node>
             <node concept="liA8E" id="v1yTSnj5wa" role="2OqNvi">
-              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.prequelConstruct():java.util.List" resolve="prequelConstruct" />
+              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.prequelConstruct()" resolve="prequelConstruct" />
             </node>
           </node>
         </node>
@@ -4246,7 +4246,7 @@
                           <ref role="3cqZAo" node="v1yTSnipda" resolve="context" />
                         </node>
                         <node concept="liA8E" id="v1yTSnjxgE" role="2OqNvi">
-                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.rules():org.antlr.ANTLRv4Parser$RulesContext" resolve="rules" />
+                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.rules()" resolve="rules" />
                         </node>
                       </node>
                     </node>
@@ -4265,7 +4265,7 @@
                 <ref role="3cqZAo" node="v1yTSnipda" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSnk2FA" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.rules():org.antlr.ANTLRv4Parser$RulesContext" resolve="rules" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.rules()" resolve="rules" />
               </node>
             </node>
           </node>
@@ -4278,11 +4278,11 @@
                   <ref role="3cqZAo" node="v1yTSnipda" resolve="context" />
                 </node>
                 <node concept="liA8E" id="v1yTSnnqk6" role="2OqNvi">
-                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.id():org.antlr.ANTLRv4Parser$IdContext" resolve="id" />
+                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$GrammarSpecContext.id()" resolve="id" />
                 </node>
               </node>
               <node concept="liA8E" id="v1yTSnnqY7" role="2OqNvi">
-                <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
               </node>
             </node>
             <node concept="2OqwBi" id="v1yTSnmP0k" role="37vLTJ">
@@ -4333,7 +4333,7 @@
                     <ref role="3cqZAo" node="v1yTSniByP" resolve="context" />
                   </node>
                   <node concept="liA8E" id="v1yTSniQ5C" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$PrequelConstructContext.tokensSpec():org.antlr.ANTLRv4Parser$TokensSpecContext" resolve="tokensSpec" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$PrequelConstructContext.tokensSpec()" resolve="tokensSpec" />
                   </node>
                 </node>
               </node>
@@ -4346,7 +4346,7 @@
                 <ref role="3cqZAo" node="v1yTSniByP" resolve="context" />
               </node>
               <node concept="liA8E" id="v1yTSniG22" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$PrequelConstructContext.tokensSpec():org.antlr.ANTLRv4Parser$TokensSpecContext" resolve="tokensSpec" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$PrequelConstructContext.tokensSpec()" resolve="tokensSpec" />
               </node>
             </node>
           </node>
@@ -4379,7 +4379,7 @@
       <node concept="3clFbS" id="4TgqxIxqC3F" role="3clF47">
         <node concept="3clFbF" id="4TgqxIxrC22" role="3cqZAp">
           <node concept="3nyPlj" id="4TgqxIxrC20" role="3clFbG">
-            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerElement(org.antlr.ANTLRv4Parser$LexerElementContext):java.lang.Object" resolve="visitLexerElement" />
+            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerElement(org.antlr.ANTLRv4Parser$LexerElementContext)" resolve="visitLexerElement" />
             <node concept="37vLTw" id="4TgqxIxrEZO" role="37wK5m">
               <ref role="3cqZAo" node="4TgqxIxqC3B" resolve="context" />
             </node>
@@ -4396,7 +4396,7 @@
                   <ref role="3cqZAo" node="4TgqxIxqC3B" resolve="context" />
                 </node>
                 <node concept="liA8E" id="4TgqxIxrHO7" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                 </node>
               </node>
               <node concept="Xl_RD" id="4TgqxIxrHO8" role="3uHU7B">
@@ -4435,7 +4435,7 @@
                         <ref role="3cqZAo" node="4TgqxIxqC3B" resolve="context" />
                       </node>
                       <node concept="liA8E" id="4TgqxIxqLMv" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.lexerAtom():org.antlr.ANTLRv4Parser$LexerAtomContext" resolve="lexerAtom" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.lexerAtom()" resolve="lexerAtom" />
                       </node>
                     </node>
                   </node>
@@ -4453,7 +4453,7 @@
                 <ref role="3cqZAo" node="4TgqxIxqC3B" resolve="context" />
               </node>
               <node concept="liA8E" id="7_W4cr_ee5L" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.lexerAtom():org.antlr.ANTLRv4Parser$LexerAtomContext" resolve="lexerAtom" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.lexerAtom()" resolve="lexerAtom" />
               </node>
             </node>
           </node>
@@ -4465,7 +4465,7 @@
                   <ref role="3cqZAo" node="4TgqxIxqC3B" resolve="context" />
                 </node>
                 <node concept="liA8E" id="7_W4cr_eD29" role="2OqNvi">
-                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.lexerBlock():org.antlr.ANTLRv4Parser$LexerBlockContext" resolve="lexerBlock" />
+                  <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.lexerBlock()" resolve="lexerBlock" />
                 </node>
               </node>
             </node>
@@ -4483,7 +4483,7 @@
                           <ref role="3cqZAo" node="4TgqxIxqC3B" resolve="context" />
                         </node>
                         <node concept="liA8E" id="7_W4cr_eP00" role="2OqNvi">
-                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.lexerBlock():org.antlr.ANTLRv4Parser$LexerBlockContext" resolve="lexerBlock" />
+                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.lexerBlock()" resolve="lexerBlock" />
                         </node>
                       </node>
                     </node>
@@ -4510,11 +4510,11 @@
                         <ref role="3cqZAo" node="4TgqxIxqC3B" resolve="context" />
                       </node>
                       <node concept="liA8E" id="7_W4cr_fRZl" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.ebnfSuffix():org.antlr.ANTLRv4Parser$EbnfSuffixContext" resolve="ebnfSuffix" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.ebnfSuffix()" resolve="ebnfSuffix" />
                       </node>
                     </node>
                     <node concept="liA8E" id="7_W4cr_fRZm" role="2OqNvi">
-                      <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                      <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="7_W4cr_fRZn" role="3uHU7B">
@@ -4534,7 +4534,7 @@
                     <ref role="3cqZAo" node="4TgqxIxqC3B" resolve="context" />
                   </node>
                   <node concept="liA8E" id="7_W4cr_fRZt" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.ebnfSuffix():org.antlr.ANTLRv4Parser$EbnfSuffixContext" resolve="ebnfSuffix" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.ebnfSuffix()" resolve="ebnfSuffix" />
                   </node>
                 </node>
               </node>
@@ -4547,7 +4547,7 @@
                 <ref role="3cqZAo" node="4TgqxIxqC3B" resolve="context" />
               </node>
               <node concept="liA8E" id="7_W4cr_fRZy" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.ebnfSuffix():org.antlr.ANTLRv4Parser$EbnfSuffixContext" resolve="ebnfSuffix" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementContext.ebnfSuffix()" resolve="ebnfSuffix" />
               </node>
             </node>
           </node>
@@ -4620,7 +4620,7 @@
                           <ref role="3cqZAo" node="1lrVu1zNMls" resolve="context" />
                         </node>
                         <node concept="liA8E" id="1lrVu1zQ$zl" role="2OqNvi">
-                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerBlockContext.lexerAltList():org.antlr.ANTLRv4Parser$LexerAltListContext" resolve="lexerAltList" />
+                          <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerBlockContext.lexerAltList()" resolve="lexerAltList" />
                         </node>
                       </node>
                     </node>
@@ -4635,7 +4635,7 @@
                 <ref role="3cqZAo" node="1lrVu1zNMls" resolve="context" />
               </node>
               <node concept="liA8E" id="1lrVu1zO8_u" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerBlockContext.lexerAltList():org.antlr.ANTLRv4Parser$LexerAltListContext" resolve="lexerAltList" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerBlockContext.lexerAltList()" resolve="lexerAltList" />
               </node>
             </node>
             <node concept="10Nm6u" id="1lrVu1zOaEu" role="3uHU7w" />
@@ -4680,7 +4680,7 @@
                   <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
                 </node>
                 <node concept="liA8E" id="4TgqxIxrKu0" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                 </node>
               </node>
               <node concept="Xl_RD" id="4TgqxIxrKu1" role="3uHU7B">
@@ -4699,7 +4699,7 @@
                     <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
                   </node>
                   <node concept="liA8E" id="QPXbEjrV1X" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.range():org.antlr.ANTLRv4Parser$RangeContext" resolve="range" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.range()" resolve="range" />
                   </node>
                 </node>
               </node>
@@ -4712,7 +4712,7 @@
                 <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
               </node>
               <node concept="liA8E" id="QPXbEjrGHu" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.range():org.antlr.ANTLRv4Parser$RangeContext" resolve="range" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.range()" resolve="range" />
               </node>
             </node>
           </node>
@@ -4747,11 +4747,11 @@
                               <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
                             </node>
                             <node concept="liA8E" id="QPXbEjcPnN" role="2OqNvi">
-                              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet():org.antlr.ANTLRv4Parser$NotSetContext" resolve="notSet" />
+                              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet()" resolve="notSet" />
                             </node>
                           </node>
                           <node concept="liA8E" id="QPXbEjcQ5z" role="2OqNvi">
-                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$NotSetContext.setElement():org.antlr.ANTLRv4Parser$SetElementContext" resolve="setElement" />
+                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$NotSetContext.setElement()" resolve="setElement" />
                           </node>
                         </node>
                       </node>
@@ -4778,11 +4778,11 @@
                       <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
                     </node>
                     <node concept="liA8E" id="1UP91OTWB0x" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet():org.antlr.ANTLRv4Parser$NotSetContext" resolve="notSet" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet()" resolve="notSet" />
                     </node>
                   </node>
                   <node concept="liA8E" id="1UP91OTWCaF" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$NotSetContext.setElement():org.antlr.ANTLRv4Parser$SetElementContext" resolve="setElement" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$NotSetContext.setElement()" resolve="setElement" />
                   </node>
                 </node>
               </node>
@@ -4800,11 +4800,11 @@
                               <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
                             </node>
                             <node concept="liA8E" id="1UP91OTWGaS" role="2OqNvi">
-                              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet():org.antlr.ANTLRv4Parser$NotSetContext" resolve="notSet" />
+                              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet()" resolve="notSet" />
                             </node>
                           </node>
                           <node concept="liA8E" id="1UP91OTWGaT" role="2OqNvi">
-                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$NotSetContext.blockSet():org.antlr.ANTLRv4Parser$BlockSetContext" resolve="blockSet" />
+                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$NotSetContext.blockSet()" resolve="blockSet" />
                           </node>
                         </node>
                       </node>
@@ -4831,11 +4831,11 @@
                       <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
                     </node>
                     <node concept="liA8E" id="1UP91OTWGb3" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet():org.antlr.ANTLRv4Parser$NotSetContext" resolve="notSet" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet()" resolve="notSet" />
                     </node>
                   </node>
                   <node concept="liA8E" id="1UP91OTWGb4" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$NotSetContext.blockSet():org.antlr.ANTLRv4Parser$BlockSetContext" resolve="blockSet" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$NotSetContext.blockSet()" resolve="blockSet" />
                   </node>
                 </node>
               </node>
@@ -4853,7 +4853,7 @@
                 <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
               </node>
               <node concept="liA8E" id="QPXbEjcAlA" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet():org.antlr.ANTLRv4Parser$NotSetContext" resolve="notSet" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.notSet()" resolve="notSet" />
               </node>
             </node>
           </node>
@@ -4877,7 +4877,7 @@
                 <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
               </node>
               <node concept="liA8E" id="4TgqxIxqYKD" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.DOT():org.antlr.v4.runtime.tree.TerminalNode" resolve="DOT" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.DOT()" resolve="DOT" />
               </node>
             </node>
           </node>
@@ -4898,7 +4898,7 @@
                         <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
                       </node>
                       <node concept="liA8E" id="v1yTSo9ESM" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.terminal():org.antlr.ANTLRv4Parser$TerminalContext" resolve="terminal" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.terminal()" resolve="terminal" />
                       </node>
                     </node>
                   </node>
@@ -4921,7 +4921,7 @@
                 <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
               </node>
               <node concept="liA8E" id="1lrVu1zSrJL" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.terminal():org.antlr.ANTLRv4Parser$TerminalContext" resolve="terminal" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.terminal()" resolve="terminal" />
               </node>
             </node>
           </node>
@@ -4959,11 +4959,11 @@
                       <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
                     </node>
                     <node concept="liA8E" id="1lrVu1zTl9b" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.LEXER_CHAR_SET():org.antlr.v4.runtime.tree.TerminalNode" resolve="LEXER_CHAR_SET" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.LEXER_CHAR_SET()" resolve="LEXER_CHAR_SET" />
                     </node>
                   </node>
                   <node concept="liA8E" id="1lrVu1zTl9c" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                   </node>
                 </node>
               </node>
@@ -4981,7 +4981,7 @@
                 <ref role="3cqZAo" node="4TgqxIxqS2p" resolve="context" />
               </node>
               <node concept="liA8E" id="1lrVu1zSKfe" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.LEXER_CHAR_SET():org.antlr.v4.runtime.tree.TerminalNode" resolve="LEXER_CHAR_SET" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerAtomContext.LEXER_CHAR_SET()" resolve="LEXER_CHAR_SET" />
               </node>
             </node>
           </node>
@@ -5031,11 +5031,11 @@
                       <ref role="3cqZAo" node="v1yTSoabhq" resolve="context" />
                     </node>
                     <node concept="liA8E" id="4TgqxIxz2uM" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TerminalContext.STRING_LITERAL():org.antlr.v4.runtime.tree.TerminalNode" resolve="STRING_LITERAL" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TerminalContext.STRING_LITERAL()" resolve="STRING_LITERAL" />
                     </node>
                   </node>
                   <node concept="liA8E" id="4TgqxIxzxdO" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                   </node>
                 </node>
               </node>
@@ -5056,7 +5056,7 @@
                 <ref role="3cqZAo" node="v1yTSoabhq" resolve="context" />
               </node>
               <node concept="liA8E" id="4TgqxIxytHG" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TerminalContext.STRING_LITERAL():org.antlr.v4.runtime.tree.TerminalNode" resolve="STRING_LITERAL" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TerminalContext.STRING_LITERAL()" resolve="STRING_LITERAL" />
               </node>
             </node>
           </node>
@@ -5072,11 +5072,11 @@
                       <ref role="3cqZAo" node="v1yTSoabhq" resolve="context" />
                     </node>
                     <node concept="liA8E" id="v1yTSoaPHy" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TerminalContext.TOKEN_REF():org.antlr.v4.runtime.tree.TerminalNode" resolve="TOKEN_REF" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TerminalContext.TOKEN_REF()" resolve="TOKEN_REF" />
                     </node>
                   </node>
                   <node concept="liA8E" id="v1yTSob7BO" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                   </node>
                 </node>
               </node>
@@ -5089,7 +5089,7 @@
                 <ref role="3cqZAo" node="v1yTSoabhq" resolve="context" />
               </node>
               <node concept="liA8E" id="4TgqxIxy_mN" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TerminalContext.TOKEN_REF():org.antlr.v4.runtime.tree.TerminalNode" resolve="TOKEN_REF" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$TerminalContext.TOKEN_REF()" resolve="TOKEN_REF" />
               </node>
             </node>
           </node>
@@ -5160,11 +5160,11 @@
                       <ref role="3cqZAo" node="QPXbEjejJd" resolve="context" />
                     </node>
                     <node concept="liA8E" id="QPXbEje$Sy" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.LEXER_CHAR_SET():org.antlr.v4.runtime.tree.TerminalNode" resolve="LEXER_CHAR_SET" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.LEXER_CHAR_SET()" resolve="LEXER_CHAR_SET" />
                     </node>
                   </node>
                   <node concept="liA8E" id="QPXbEjeJvN" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                   </node>
                 </node>
               </node>
@@ -5182,7 +5182,7 @@
                 <ref role="3cqZAo" node="QPXbEjejJd" resolve="context" />
               </node>
               <node concept="liA8E" id="QPXbEjeHW5" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.LEXER_CHAR_SET():org.antlr.v4.runtime.tree.TerminalNode" resolve="LEXER_CHAR_SET" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.LEXER_CHAR_SET()" resolve="LEXER_CHAR_SET" />
               </node>
             </node>
           </node>
@@ -5198,11 +5198,11 @@
                       <ref role="3cqZAo" node="QPXbEjejJd" resolve="context" />
                     </node>
                     <node concept="liA8E" id="1UP91OTZ7uR" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.STRING_LITERAL():org.antlr.v4.runtime.tree.TerminalNode" resolve="STRING_LITERAL" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.STRING_LITERAL()" resolve="STRING_LITERAL" />
                     </node>
                   </node>
                   <node concept="liA8E" id="1UP91OTZja3" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                   </node>
                 </node>
               </node>
@@ -5215,7 +5215,7 @@
                 <ref role="3cqZAo" node="QPXbEjejJd" resolve="context" />
               </node>
               <node concept="liA8E" id="1UP91OTYj1o" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.STRING_LITERAL():org.antlr.v4.runtime.tree.TerminalNode" resolve="STRING_LITERAL" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.STRING_LITERAL()" resolve="STRING_LITERAL" />
               </node>
             </node>
           </node>
@@ -5231,11 +5231,11 @@
                       <ref role="3cqZAo" node="QPXbEjejJd" resolve="context" />
                     </node>
                     <node concept="liA8E" id="1UP91OTZWwM" role="2OqNvi">
-                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.TOKEN_REF():org.antlr.v4.runtime.tree.TerminalNode" resolve="TOKEN_REF" />
+                      <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.TOKEN_REF()" resolve="TOKEN_REF" />
                     </node>
                   </node>
                   <node concept="liA8E" id="1UP91OU04DS" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                   </node>
                 </node>
               </node>
@@ -5248,7 +5248,7 @@
                 <ref role="3cqZAo" node="QPXbEjejJd" resolve="context" />
               </node>
               <node concept="liA8E" id="1UP91OTZEm2" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.TOKEN_REF():org.antlr.v4.runtime.tree.TerminalNode" resolve="TOKEN_REF" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.TOKEN_REF()" resolve="TOKEN_REF" />
               </node>
             </node>
           </node>
@@ -5263,7 +5263,7 @@
                     <ref role="3cqZAo" node="QPXbEjejJd" resolve="context" />
                   </node>
                   <node concept="liA8E" id="1UP91OU3F1U" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.range():org.antlr.ANTLRv4Parser$RangeContext" resolve="range" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.range()" resolve="range" />
                   </node>
                 </node>
               </node>
@@ -5276,7 +5276,7 @@
                 <ref role="3cqZAo" node="QPXbEjejJd" resolve="context" />
               </node>
               <node concept="liA8E" id="1UP91OU3mhK" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.range():org.antlr.ANTLRv4Parser$RangeContext" resolve="range" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$SetElementContext.range()" resolve="range" />
               </node>
             </node>
           </node>
@@ -5358,7 +5358,7 @@
               <ref role="3cqZAo" node="1UP91OTXOXm" resolve="context" />
             </node>
             <node concept="liA8E" id="1UP91OU12N1" role="2OqNvi">
-              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$BlockSetContext.setElement():java.util.List" resolve="setElement" />
+              <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$BlockSetContext.setElement()" resolve="setElement" />
             </node>
           </node>
         </node>
@@ -5392,7 +5392,7 @@
       <node concept="3clFbS" id="4TgqxIxrS9X" role="3clF47">
         <node concept="3clFbF" id="4TgqxIxrSa1" role="3cqZAp">
           <node concept="3nyPlj" id="4TgqxIxrSa0" role="3clFbG">
-            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerRuleBlock(org.antlr.ANTLRv4Parser$LexerRuleBlockContext):java.lang.Object" resolve="visitLexerRuleBlock" />
+            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerRuleBlock(org.antlr.ANTLRv4Parser$LexerRuleBlockContext)" resolve="visitLexerRuleBlock" />
             <node concept="37vLTw" id="4TgqxIxrS9Z" role="37wK5m">
               <ref role="3cqZAo" node="4TgqxIxrS9T" resolve="context" />
             </node>
@@ -5434,7 +5434,7 @@
                     <ref role="3cqZAo" node="4TgqxIxrS9T" resolve="context" />
                   </node>
                   <node concept="liA8E" id="4TgqxIxsgnb" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleBlockContext.lexerAltList():org.antlr.ANTLRv4Parser$LexerAltListContext" resolve="lexerAltList" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerRuleBlockContext.lexerAltList()" resolve="lexerAltList" />
                   </node>
                 </node>
               </node>
@@ -5471,7 +5471,7 @@
       <node concept="3clFbS" id="4TgqxIxn_Qn" role="3clF47">
         <node concept="3clFbF" id="4TgqxIxn_Qr" role="3cqZAp">
           <node concept="3nyPlj" id="4TgqxIxn_Qq" role="3clFbG">
-            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerElements(org.antlr.ANTLRv4Parser$LexerElementsContext):java.lang.Object" resolve="visitLexerElements" />
+            <ref role="37wK5l" to="p1r7:~ANTLRv4ParserBaseVisitor.visitLexerElements(org.antlr.ANTLRv4Parser$LexerElementsContext)" resolve="visitLexerElements" />
             <node concept="37vLTw" id="4TgqxIxn_Qp" role="37wK5m">
               <ref role="3cqZAo" node="4TgqxIxn_Qj" resolve="context" />
             </node>
@@ -5488,7 +5488,7 @@
                   <ref role="3cqZAo" node="4TgqxIxn_Qj" resolve="context" />
                 </node>
                 <node concept="liA8E" id="4TgqxIxnFli" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                 </node>
               </node>
               <node concept="Xl_RD" id="4TgqxIxnFlj" role="3uHU7B">
@@ -5528,7 +5528,7 @@
                     <ref role="3cqZAo" node="4TgqxIxn_Qj" resolve="context" />
                   </node>
                   <node concept="liA8E" id="4TgqxIxnH4q" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementsContext.lexerElement():java.util.List" resolve="lexerElement" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementsContext.lexerElement()" resolve="lexerElement" />
                   </node>
                 </node>
               </node>
@@ -5547,7 +5547,7 @@
                       <ref role="3cqZAo" node="4TgqxIxnH4l" resolve="elements" />
                     </node>
                     <node concept="liA8E" id="4TgqxIxnH4w" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                      <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                     </node>
                   </node>
                 </node>
@@ -5564,7 +5564,7 @@
                       <ref role="3cqZAo" node="4TgqxIxvWyH" resolve="lexerElements" />
                     </node>
                     <node concept="liA8E" id="4TgqxIxw0za" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                      <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                       <node concept="10QFUN" id="4TgqxIxnH4M" role="37wK5m">
                         <node concept="3Tqbb2" id="4TgqxIxnH4N" role="10QFUM">
                           <ref role="ehGHo" to="ubjp:4TgqxIxnOE$" resolve="LexerElement" />
@@ -5592,7 +5592,7 @@
                 <ref role="3cqZAo" node="4TgqxIxn_Qj" resolve="context" />
               </node>
               <node concept="liA8E" id="4TgqxIxnFl$" role="2OqNvi">
-                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementsContext.lexerElement():java.util.List" resolve="lexerElement" />
+                <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$LexerElementsContext.lexerElement()" resolve="lexerElement" />
               </node>
             </node>
           </node>
@@ -5659,7 +5659,7 @@
                         <ref role="3cqZAo" node="1tv9AyCtz6q" resolve="context" />
                       </node>
                       <node concept="liA8E" id="v1yTSnGQC$" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfSuffixContext.STAR():org.antlr.v4.runtime.tree.TerminalNode" resolve="STAR" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfSuffixContext.STAR()" resolve="STAR" />
                       </node>
                     </node>
                   </node>
@@ -5675,15 +5675,15 @@
                             <ref role="3cqZAo" node="1tv9AyCtz6q" resolve="context" />
                           </node>
                           <node concept="liA8E" id="v1yTSnGcG9" role="2OqNvi">
-                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfSuffixContext.STAR():org.antlr.v4.runtime.tree.TerminalNode" resolve="STAR" />
+                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfSuffixContext.STAR()" resolve="STAR" />
                           </node>
                         </node>
                         <node concept="liA8E" id="v1yTSnGq6c" role="2OqNvi">
-                          <ref role="37wK5l" to="6xeh:~TerminalNode.getSymbol():org.antlr.v4.runtime.Token" resolve="getSymbol" />
+                          <ref role="37wK5l" to="6xeh:~TerminalNode.getSymbol()" resolve="getSymbol" />
                         </node>
                       </node>
                       <node concept="liA8E" id="v1yTSnGqq$" role="2OqNvi">
-                        <ref role="37wK5l" to="p3ir:~Token.getTokenIndex():int" resolve="getTokenIndex" />
+                        <ref role="37wK5l" to="p3ir:~Token.getTokenIndex()" resolve="getTokenIndex" />
                       </node>
                     </node>
                   </node>
@@ -5719,7 +5719,7 @@
                         <ref role="3cqZAo" node="1tv9AyCtz6q" resolve="context" />
                       </node>
                       <node concept="liA8E" id="v1yTSnGOIR" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfSuffixContext.PLUS():org.antlr.v4.runtime.tree.TerminalNode" resolve="PLUS" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfSuffixContext.PLUS()" resolve="PLUS" />
                       </node>
                     </node>
                   </node>
@@ -5735,15 +5735,15 @@
                             <ref role="3cqZAo" node="1tv9AyCtz6q" resolve="context" />
                           </node>
                           <node concept="liA8E" id="v1yTSnGt7H" role="2OqNvi">
-                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfSuffixContext.PLUS():org.antlr.v4.runtime.tree.TerminalNode" resolve="PLUS" />
+                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$EbnfSuffixContext.PLUS()" resolve="PLUS" />
                           </node>
                         </node>
                         <node concept="liA8E" id="v1yTSnGt7I" role="2OqNvi">
-                          <ref role="37wK5l" to="6xeh:~TerminalNode.getSymbol():org.antlr.v4.runtime.Token" resolve="getSymbol" />
+                          <ref role="37wK5l" to="6xeh:~TerminalNode.getSymbol()" resolve="getSymbol" />
                         </node>
                       </node>
                       <node concept="liA8E" id="v1yTSnGt7J" role="2OqNvi">
-                        <ref role="37wK5l" to="p3ir:~Token.getTokenIndex():int" resolve="getTokenIndex" />
+                        <ref role="37wK5l" to="p3ir:~Token.getTokenIndex()" resolve="getTokenIndex" />
                       </node>
                     </node>
                   </node>
@@ -5759,7 +5759,7 @@
                     <ref role="3cqZAo" node="1tv9AyCtz6q" resolve="context" />
                   </node>
                   <node concept="liA8E" id="1tv9AyCtz6$" role="2OqNvi">
-                    <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                   </node>
                 </node>
               </node>
@@ -5856,7 +5856,7 @@
                   <ref role="3cqZAo" node="1tv9AyCtz6w" resolve="question" />
                 </node>
                 <node concept="liA8E" id="7_W4cr_d6sy" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toCharArray():char[]" resolve="toCharArray" />
+                  <ref role="37wK5l" to="wyt6:~String.toCharArray()" resolve="toCharArray" />
                 </node>
               </node>
             </node>
@@ -5906,14 +5906,14 @@
             </node>
           </node>
           <node concept="2YIFZM" id="QPXbEj1IOW" role="3clFbw">
-            <ref role="37wK5l" to="wyt6:~Character.isLowerCase(char):boolean" resolve="isLowerCase" />
+            <ref role="37wK5l" to="wyt6:~Character.isLowerCase(char)" resolve="isLowerCase" />
             <ref role="1Pybhc" to="wyt6:~Character" resolve="Character" />
             <node concept="2OqwBi" id="QPXbEj1ZRs" role="37wK5m">
               <node concept="37vLTw" id="QPXbEj1Z_m" role="2Oq$k0">
                 <ref role="3cqZAo" node="4L89IP56uUo" resolve="name" />
               </node>
               <node concept="liA8E" id="QPXbEj23ZR" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.charAt(int):char" resolve="charAt" />
+                <ref role="37wK5l" to="wyt6:~String.charAt(int)" resolve="charAt" />
                 <node concept="3cmrfG" id="QPXbEj245P" role="37wK5m">
                   <property role="3cmrfH" value="0" />
                 </node>
@@ -6109,7 +6109,7 @@
                   <ref role="3cqZAo" node="QPXbEjxif5" resolve="value" />
                 </node>
                 <node concept="liA8E" id="QPXbEjxqw3" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.subSequence(int,int):java.lang.CharSequence" resolve="subSequence" />
+                  <ref role="37wK5l" to="wyt6:~String.subSequence(int,int)" resolve="subSequence" />
                   <node concept="3cmrfG" id="QPXbEjxqA6" role="37wK5m">
                     <property role="3cmrfH" value="1" />
                   </node>
@@ -6122,14 +6122,14 @@
                         <ref role="3cqZAo" node="QPXbEjxif5" resolve="value" />
                       </node>
                       <node concept="liA8E" id="QPXbEjxrFD" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                        <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
               <node concept="liA8E" id="QPXbEjxvhd" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~CharSequence.toString():java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="wyt6:~CharSequence.toString()" resolve="toString" />
               </node>
             </node>
             <node concept="2OqwBi" id="QPXbEjxifj" role="37vLTJ">

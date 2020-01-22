@@ -209,7 +209,7 @@
             </node>
           </node>
           <node concept="2YIFZM" id="1fzYukMlKCd" role="3clFbw">
-            <ref role="37wK5l" to="3ahc:~ReadOnlyUtil.isSelectionReadOnlyInEditor(jetbrains.mps.openapi.editor.EditorComponent):boolean" resolve="isSelectionReadOnlyInEditor" />
+            <ref role="37wK5l" to="3ahc:~ReadOnlyUtil.isSelectionReadOnlyInEditor(jetbrains.mps.openapi.editor.EditorComponent)" resolve="isSelectionReadOnlyInEditor" />
             <ref role="1Pybhc" to="3ahc:~ReadOnlyUtil" resolve="ReadOnlyUtil" />
             <node concept="2OqwBi" id="1fzYukMlKCe" role="37wK5m">
               <node concept="2WthIp" id="1fzYukMlKCf" role="2Oq$k0" />

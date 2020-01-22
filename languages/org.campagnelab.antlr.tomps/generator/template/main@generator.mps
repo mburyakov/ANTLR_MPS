@@ -566,7 +566,7 @@
                 <ref role="3cqZAo" node="5qM9mr9o5pG" resolve="contextList" />
               </node>
               <node concept="liA8E" id="5qM9mr9zzf1" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.iterator():java.util.Iterator" resolve="iterator" />
+                <ref role="37wK5l" to="33ny:~List.iterator()" resolve="iterator" />
               </node>
             </node>
           </node>
@@ -582,7 +582,7 @@
                   <node concept="10QFUN" id="5qM9mr9oG4Y" role="25WWJ7">
                     <node concept="3Tqbb2" id="5qM9mr9oGk7" role="10QFUM" />
                     <node concept="1rXfSq" id="5qM9mr9oFv2" role="10QFUP">
-                      <ref role="37wK5l" to="6xeh:~AbstractParseTreeVisitor.visit(org.antlr.v4.runtime.tree.ParseTree):java.lang.Object" resolve="visit" />
+                      <ref role="37wK5l" to="6xeh:~AbstractParseTreeVisitor.visit(org.antlr.v4.runtime.tree.ParseTree)" resolve="visit" />
                       <node concept="1eOMI4" id="5qM9mr9z_Do" role="37wK5m">
                         <node concept="10QFUN" id="5qM9mr9z_Dl" role="1eOMHV">
                           <node concept="3uibUv" id="2Wl1etbZ8dw" role="10QFUM">
@@ -593,7 +593,7 @@
                               <ref role="3cqZAo" node="5qM9mr9zzzC" resolve="it" />
                             </node>
                             <node concept="liA8E" id="5qM9mr9z_xg" role="2OqNvi">
-                              <ref role="37wK5l" to="33ny:~Iterator.next():java.lang.Object" resolve="next" />
+                              <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
                             </node>
                           </node>
                         </node>
@@ -609,7 +609,7 @@
               <ref role="3cqZAo" node="5qM9mr9zzzC" resolve="it" />
             </node>
             <node concept="liA8E" id="5qM9mr9z_0N" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Iterator.hasNext():boolean" resolve="hasNext" />
+              <ref role="37wK5l" to="33ny:~Iterator.hasNext()" resolve="hasNext" />
             </node>
           </node>
         </node>
@@ -646,7 +646,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2y4Usu6TAiH" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                 </node>
               </node>
             </node>
@@ -716,7 +716,7 @@
                   <ref role="3cqZAo" node="5qM9mr9q9xW" resolve="r" />
                 </node>
                 <node concept="liA8E" id="5qM9mr9qldi" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                   <node concept="2OqwBi" id="5qM9mr9pBxa" role="37wK5m">
                     <node concept="1eOMI4" id="5qM9mr9pBxb" role="2Oq$k0">
                       <node concept="10QFUN" id="5qM9mr9pBxc" role="1eOMHV">
@@ -729,7 +729,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5qM9mr9pBxf" role="2OqNvi">
-                      <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                      <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                     </node>
                   </node>
                 </node>
@@ -778,7 +778,7 @@
                 <node concept="3clFbF" id="v1yTSnUvxS" role="3cqZAp">
                   <node concept="2YIFZM" id="v1yTSnUvzI" role="3clFbG">
                     <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                    <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+                    <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
                     <node concept="Xl_RD" id="v1yTSnUvCj" role="37wK5m">
                       <property role="Xl_RC" value="%s.%sContext" />
                     </node>
@@ -838,7 +838,7 @@
                 <ref role="3cqZAo" node="v1yTSnUvb$" resolve="context" />
               </node>
               <node concept="liA8E" id="14grA09FAA$" role="2OqNvi">
-                <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
               </node>
             </node>
             <node concept="3cpWs3" id="14grA09HhVm" role="3uHU7B">
@@ -968,7 +968,7 @@
                   <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="2y4Usu6U41e" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println():void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println()" resolve="println" />
                 </node>
               </node>
               <node concept="5jKBG" id="2y4Usu6U4y8" role="lGtFl">
@@ -1051,11 +1051,11 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="5qM9mra12LH" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~Token.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="p3ir:~Token.getText()" resolve="getText" />
                 </node>
               </node>
               <node concept="liA8E" id="5qM9mra17xe" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="Xl_RD" id="v1yTSov6dc" role="37wK5m">
                   <property role="Xl_RC" value="function" />
                   <node concept="17Uvod" id="v1yTSov6A0" role="lGtFl">
@@ -1115,7 +1115,7 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="2y4Usu6WbSi" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println():void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println()" resolve="println" />
             </node>
           </node>
           <node concept="1WS0z7" id="2y4Usu6WbYD" role="lGtFl">
@@ -1247,7 +1247,7 @@
                 <node concept="3clFbF" id="7JSGHIZDuIT" role="3cqZAp">
                   <node concept="2YIFZM" id="7JSGHIZDuIU" role="3clFbG">
                     <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                    <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+                    <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
                     <node concept="Xl_RD" id="7JSGHIZDuIV" role="37wK5m">
                       <property role="Xl_RC" value="%s.%sContext" />
                     </node>
@@ -1318,7 +1318,7 @@
                 <ref role="3cqZAo" node="7JSGHIZDuIO" resolve="context" />
               </node>
               <node concept="liA8E" id="14grA09FCZ3" role="2OqNvi">
-                <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
               </node>
             </node>
             <node concept="3cpWs3" id="14grA09HjYn" role="3uHU7B">
@@ -1416,7 +1416,7 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="7JSGHIZDuJR" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println():void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println()" resolve="println" />
             </node>
           </node>
           <node concept="5jKBG" id="7JSGHIZDuJS" role="lGtFl">
@@ -1553,13 +1553,13 @@
                         <ref role="3cqZAo" node="3V2IUSr$UMc" resolve="value" />
                       </node>
                       <node concept="liA8E" id="3V2IUSr$ZSG" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                        <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
                         <node concept="2OqwBi" id="3V2IUSrGkZL" role="37wK5m">
                           <node concept="2GrUjf" id="3V2IUSrIV9p" role="2Oq$k0">
                             <ref role="2Gs0qQ" node="3V2IUSrIP7S" resolve="toTrim" />
                           </node>
                           <node concept="liA8E" id="3V2IUSrGkZN" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                            <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="3V2IUSr_12J" role="37wK5m">
@@ -1567,7 +1567,7 @@
                             <ref role="3cqZAo" node="3V2IUSr$UMc" resolve="value" />
                           </node>
                           <node concept="liA8E" id="3V2IUSr_1JX" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                            <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                           </node>
                         </node>
                       </node>
@@ -1584,7 +1584,7 @@
                         <ref role="3cqZAo" node="3V2IUSr$UMc" resolve="value" />
                       </node>
                       <node concept="liA8E" id="3V2IUSr_1VD" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                        <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
                         <node concept="3cmrfG" id="3V2IUSrIeY2" role="37wK5m">
                           <property role="3cmrfH" value="0" />
                         </node>
@@ -1594,7 +1594,7 @@
                               <ref role="3cqZAo" node="3V2IUSr$UMc" resolve="value" />
                             </node>
                             <node concept="liA8E" id="3V2IUSr_30e" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                              <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                             </node>
                           </node>
                           <node concept="2OqwBi" id="3V2IUSr_1VE" role="3uHU7w">
@@ -1602,7 +1602,7 @@
                               <ref role="2Gs0qQ" node="3V2IUSrIP7S" resolve="toTrim" />
                             </node>
                             <node concept="liA8E" id="3V2IUSr_1VG" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                              <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                             </node>
                           </node>
                         </node>
@@ -1625,7 +1625,7 @@
                     <ref role="3cqZAo" node="3V2IUSr$UMc" resolve="value" />
                   </node>
                   <node concept="liA8E" id="3V2IUSrITBa" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                    <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
                     <node concept="2GrUjf" id="3V2IUSrITNC" role="37wK5m">
                       <ref role="2Gs0qQ" node="3V2IUSrIP7S" resolve="toTrim" />
                     </node>
@@ -1636,7 +1636,7 @@
                     <ref role="3cqZAo" node="3V2IUSr$UMc" resolve="value" />
                   </node>
                   <node concept="liA8E" id="3V2IUSrIQSs" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                    <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
                     <node concept="2GrUjf" id="3V2IUSrIQVn" role="37wK5m">
                       <ref role="2Gs0qQ" node="3V2IUSrIP7S" resolve="toTrim" />
                     </node>
@@ -1751,7 +1751,7 @@
                     <node concept="3clFbF" id="r9xlU4yVQN" role="3cqZAp">
                       <node concept="3cpWs3" id="r9xlU4WVT3" role="3clFbG">
                         <node concept="2YIFZM" id="r9xlU4WUcu" role="3uHU7w">
-                          <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                          <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                           <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                           <node concept="2OqwBi" id="r9xlU4WUvl" role="37wK5m">
                             <node concept="30H73N" id="r9xlU4WUmE" role="2Oq$k0" />
@@ -1895,7 +1895,7 @@
                         <ref role="3cqZAo" node="3ddbj1TUcr2" resolve="parserName" />
                       </node>
                       <node concept="liA8E" id="3ddbj1TUihp" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                        <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
                         <node concept="3cmrfG" id="3ddbj1TUinF" role="37wK5m">
                           <property role="3cmrfH" value="0" />
                         </node>
@@ -1905,7 +1905,7 @@
                               <property role="Xl_RC" value="Parser" />
                             </node>
                             <node concept="liA8E" id="3ddbj1TUn4y" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                              <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                             </node>
                           </node>
                           <node concept="2OqwBi" id="3ddbj1TUk_m" role="3uHU7B">
@@ -1913,7 +1913,7 @@
                               <ref role="3cqZAo" node="3ddbj1TUcr2" resolve="parserName" />
                             </node>
                             <node concept="liA8E" id="3ddbj1TUlnm" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                              <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                             </node>
                           </node>
                         </node>
@@ -1930,7 +1930,7 @@
                   <ref role="3cqZAo" node="3ddbj1TUcr2" resolve="parserName" />
                 </node>
                 <node concept="liA8E" id="3ddbj1TUgIA" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                  <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
                   <node concept="Xl_RD" id="3ddbj1TUgMP" role="37wK5m">
                     <property role="Xl_RC" value="Parser" />
                   </node>
@@ -2009,7 +2009,7 @@
                         <ref role="3cqZAo" node="4EJnNxxCtI2" resolve="context" />
                       </node>
                       <node concept="liA8E" id="4aoS_ZgLve0" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.id():org.antlr.ANTLRv4Parser$IdContext" resolve="id" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.id()" resolve="id" />
                         <node concept="1ZhdrF" id="4aoS_ZgLxJt" role="lGtFl">
                           <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
                           <property role="2qtEX8" value="baseMethodDeclaration" />
@@ -2060,7 +2060,7 @@
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="4aoS_ZgLxX9" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                   <node concept="3f7Wdw" id="4aoS_ZgLxXa" role="37wK5m">
                                     <ref role="3f7vo2" to="tpce:fLJekj2" resolve="Cardinality" />
                                     <ref role="3f7u_j" to="tpce:fLJekj5" />
@@ -2075,7 +2075,7 @@
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="4aoS_ZgLxXf" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                   <node concept="3f7Wdw" id="4aoS_ZgLxXg" role="37wK5m">
                                     <ref role="3f7u_j" to="tpce:fLJekj6" />
                                     <ref role="3f7vo2" to="tpce:fLJekj2" resolve="Cardinality" />
@@ -2104,7 +2104,7 @@
                         <ref role="3cqZAo" node="4EJnNxxCtI2" resolve="context" />
                       </node>
                       <node concept="liA8E" id="4aoS_ZgLuGs" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.id():org.antlr.ANTLRv4Parser$IdContext" resolve="id" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.id()" resolve="id" />
                         <node concept="1ZhdrF" id="4aoS_ZgLy2i" role="lGtFl">
                           <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
                           <property role="2qtEX8" value="baseMethodDeclaration" />
@@ -2190,7 +2190,7 @@
               <node concept="10QFUN" id="14grA08Za6v" role="33vP2m">
                 <node concept="3Tqbb2" id="14grA08Zag1" role="10QFUM" />
                 <node concept="1rXfSq" id="5qM9mr9TAJM" role="10QFUP">
-                  <ref role="37wK5l" to="6xeh:~AbstractParseTreeVisitor.visit(org.antlr.v4.runtime.tree.ParseTree):java.lang.Object" resolve="visit" />
+                  <ref role="37wK5l" to="6xeh:~AbstractParseTreeVisitor.visit(org.antlr.v4.runtime.tree.ParseTree)" resolve="visit" />
                   <node concept="1eOMI4" id="5qM9mr9XcXj" role="37wK5m">
                     <node concept="2OqwBi" id="5qM9mr9TARv" role="1eOMHV">
                       <node concept="37vLTw" id="5qM9mr9TAMI" role="2Oq$k0">
@@ -2239,7 +2239,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="5YR6ikw3FBQ" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                 <node concept="3f7Wdw" id="5YR6ikw3FBR" role="37wK5m">
                                   <ref role="3f7u_j" to="tpce:fLJekj5" />
                                   <ref role="3f7vo2" to="tpce:fLJekj2" resolve="Cardinality" />
@@ -2254,7 +2254,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="5YR6ikw3FBW" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                 <node concept="3f7Wdw" id="5YR6ikw3FBX" role="37wK5m">
                                   <ref role="3f7u_j" to="tpce:fLJekj6" />
                                   <ref role="3f7vo2" to="tpce:fLJekj2" resolve="Cardinality" />
@@ -2327,7 +2327,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="3ft5eLKIkbE" role="2OqNvi">
-                        <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                        <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                       </node>
                     </node>
                   </node>
@@ -2352,7 +2352,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="4aoS_Zh07nZ" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                               <node concept="3f7Wdw" id="4aoS_Zh07o0" role="37wK5m">
                                 <ref role="3f7u_j" to="tpce:fLJekj5" />
                                 <ref role="3f7vo2" to="tpce:fLJekj2" resolve="Cardinality" />
@@ -2367,7 +2367,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="4aoS_Zh07o5" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                               <node concept="3f7Wdw" id="4aoS_Zh07o6" role="37wK5m">
                                 <ref role="3f7vo2" to="tpce:fLJekj2" resolve="Cardinality" />
                                 <ref role="3f7u_j" to="tpce:fLJekj6" />
@@ -2392,7 +2392,7 @@
                       <node concept="10QFUN" id="4aoS_Zh0bS6" role="1eOMHV">
                         <node concept="2I9FWS" id="4aoS_Zh0bSm" role="10QFUM" />
                         <node concept="1rXfSq" id="4aoS_Zh0c3f" role="10QFUP">
-                          <ref role="37wK5l" to="6xeh:~AbstractParseTreeVisitor.visit(org.antlr.v4.runtime.tree.ParseTree):java.lang.Object" resolve="visit" />
+                          <ref role="37wK5l" to="6xeh:~AbstractParseTreeVisitor.visit(org.antlr.v4.runtime.tree.ParseTree)" resolve="visit" />
                           <node concept="2OqwBi" id="4aoS_Zh0ceZ" role="37wK5m">
                             <node concept="37vLTw" id="4aoS_Zh0c73" role="2Oq$k0">
                               <ref role="3cqZAo" node="WSCumx0Qu7" resolve="context" />
@@ -2614,7 +2614,7 @@
                           <node concept="2ZYiMu" id="14grA09IXw_" role="2OqNvi" />
                         </node>
                         <node concept="liA8E" id="14grA09IXwA" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                           <node concept="2OqwBi" id="14grA09IXwC" role="37wK5m">
                             <node concept="2OqwBi" id="1xVV58hbm9Q" role="2Oq$k0">
                               <node concept="30H73N" id="14grA09IXwD" role="2Oq$k0" />
@@ -2648,7 +2648,7 @@
                           <node concept="2ZYiMu" id="14grA09IXwO" role="2OqNvi" />
                         </node>
                         <node concept="liA8E" id="14grA09IXwP" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                           <node concept="2OqwBi" id="14grA09IXwR" role="37wK5m">
                             <node concept="2OqwBi" id="1xVV58hbohV" role="2Oq$k0">
                               <node concept="30H73N" id="14grA09IXwS" role="2Oq$k0" />
@@ -2718,7 +2718,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5qM9mr9rrDv" role="2OqNvi">
-                    <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                    <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                   </node>
                 </node>
               </node>
@@ -2785,7 +2785,7 @@
                     <ref role="3cqZAo" node="5qM9mr9rrDL" resolve="r" />
                   </node>
                   <node concept="liA8E" id="5qM9mr9rrDV" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                    <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                     <node concept="2OqwBi" id="5qM9mr9rrDW" role="37wK5m">
                       <node concept="1eOMI4" id="5qM9mr9rrDX" role="2Oq$k0">
                         <node concept="10QFUN" id="5qM9mr9rrDY" role="1eOMHV">
@@ -2798,7 +2798,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="5qM9mr9rrE1" role="2OqNvi">
-                        <ref role="37wK5l" to="p3ir:~RuleContext.getText():java.lang.String" resolve="getText" />
+                        <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                       </node>
                     </node>
                   </node>
@@ -2881,7 +2881,7 @@
                         <node concept="2ZYiMu" id="wJ65cZ4zmL" role="2OqNvi" />
                       </node>
                       <node concept="liA8E" id="wJ65cZ4zmS" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                         <node concept="2OqwBi" id="cELb$UvwNm" role="37wK5m">
                           <node concept="2OqwBi" id="cELb$UvvDZ" role="2Oq$k0">
                             <node concept="30H73N" id="cELb$UvvwH" role="2Oq$k0" />
@@ -2915,7 +2915,7 @@
                         <node concept="2ZYiMu" id="cELb$UvxON" role="2OqNvi" />
                       </node>
                       <node concept="liA8E" id="cELb$UvxOO" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                         <node concept="2OqwBi" id="cELb$UvxOP" role="37wK5m">
                           <node concept="2OqwBi" id="cELb$UvxOQ" role="2Oq$k0">
                             <node concept="30H73N" id="cELb$UvxOR" role="2Oq$k0" />
@@ -3097,7 +3097,7 @@
                     <ref role="3cqZAo" node="6$il$X2bfdW" resolve="context" />
                   </node>
                   <node concept="liA8E" id="5qM9mr9MQJr" role="2OqNvi">
-                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.AT():org.antlr.v4.runtime.tree.TerminalNode" resolve="AT" />
+                    <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.AT()" resolve="AT" />
                     <node concept="1ZhdrF" id="5qM9mr9MRYo" role="lGtFl">
                       <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
                       <property role="2qtEX8" value="baseMethodDeclaration" />
@@ -3127,7 +3127,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="5qM9mr9MRTZ" role="2OqNvi">
-                  <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                 </node>
                 <node concept="raruj" id="5qM9mr9MRWV" role="lGtFl" />
                 <node concept="1W57fq" id="5qM9mr9MS9L" role="lGtFl">
@@ -3210,7 +3210,7 @@
                         <ref role="3cqZAo" node="6$il$X2bfdW" resolve="context" />
                       </node>
                       <node concept="liA8E" id="5qM9mr9MTgD" role="2OqNvi">
-                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.COLONCOLON():org.antlr.v4.runtime.tree.TerminalNode" resolve="COLONCOLON" />
+                        <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.COLONCOLON()" resolve="COLONCOLON" />
                         <node concept="1ZhdrF" id="5qM9mr9MTgE" role="lGtFl">
                           <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
                           <property role="2qtEX8" value="baseMethodDeclaration" />
@@ -3266,7 +3266,7 @@
                             <ref role="3cqZAo" node="6$il$X2bfdW" resolve="context" />
                           </node>
                           <node concept="liA8E" id="3V2IUSr$wrP" role="2OqNvi">
-                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.AT():org.antlr.v4.runtime.tree.TerminalNode" resolve="AT" />
+                            <ref role="37wK5l" to="p1r7:~ANTLRv4Parser$ActionContext.AT()" resolve="AT" />
                             <node concept="1ZhdrF" id="3V2IUSrFC$m" role="lGtFl">
                               <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
                               <property role="2qtEX8" value="baseMethodDeclaration" />
@@ -3296,7 +3296,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="3V2IUSr$x8s" role="2OqNvi">
-                          <ref role="37wK5l" to="6xeh:~ParseTree.getText():java.lang.String" resolve="getText" />
+                          <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                         </node>
                       </node>
                       <node concept="2ShNRf" id="3V2IUSrIWfO" role="37wK5m">
@@ -3602,7 +3602,7 @@
                         <node concept="37vLTI" id="14grA08D1fL" role="3clFbG">
                           <node concept="2YIFZM" id="14grA08D7Fh" role="37vLTx">
                             <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                            <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
+                            <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
                             <node concept="Xl_RD" id="4OlXQqAGtvy" role="37wK5m">
                               <property role="Xl_RC" value="2" />
                               <node concept="29HgVG" id="4OlXQqAGtvz" role="lGtFl">
@@ -3710,7 +3710,7 @@
                                   </node>
                                 </node>
                                 <node concept="2YIFZM" id="14grA08Daf9" role="37vLTx">
-                                  <ref role="37wK5l" to="wyt6:~Boolean.parseBoolean(java.lang.String):boolean" resolve="parseBoolean" />
+                                  <ref role="37wK5l" to="wyt6:~Boolean.parseBoolean(java.lang.String)" resolve="parseBoolean" />
                                   <ref role="1Pybhc" to="wyt6:~Boolean" resolve="Boolean" />
                                   <node concept="Xl_RD" id="14grA08Dag6" role="37wK5m">
                                     <property role="Xl_RC" value="false" />

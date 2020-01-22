@@ -142,7 +142,7 @@
                   <ref role="3cqZAo" node="1tv9AyCyh4i" resolve="p" />
                 </node>
                 <node concept="liA8E" id="1tv9AyCyhSG" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toUpperCase():java.lang.String" resolve="toUpperCase" />
+                  <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
                 </node>
               </node>
               <node concept="2OqwBi" id="1tv9AyCyg9s" role="37vLTJ">
