@@ -40,10 +40,10 @@
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
-      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -93,7 +93,6 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
       </concept>
@@ -223,16 +222,10 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbC" id="2VV0OICJXex" role="3clFbw">
-                <node concept="2OqwBi" id="2VV0OICJXey" role="3uHU7w">
-                  <node concept="2GrUjf" id="2VV0OICJXez" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="2VV0OICJXer" resolve="c" />
-                  </node>
-                  <node concept="FGMqu" id="2VV0OICJXe$" role="2OqNvi" />
-                </node>
-                <node concept="2OqwBi" id="2VV0OICK9Iw" role="3uHU7B">
-                  <node concept="2DD5aU" id="2VV0OICK9jU" role="2Oq$k0" />
-                  <node concept="FGMqu" id="2VV0OICKakn" role="2OqNvi" />
+              <node concept="17R0WA" id="6XBFSUNH4BT" role="3clFbw">
+                <node concept="2DD5aU" id="2VV0OICK9jU" role="3uHU7B" />
+                <node concept="2GrUjf" id="2VV0OICJXez" role="3uHU7w">
+                  <ref role="2Gs0qQ" node="2VV0OICJXer" resolve="c" />
                 </node>
               </node>
             </node>

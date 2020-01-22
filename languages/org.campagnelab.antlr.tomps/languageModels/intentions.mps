@@ -148,9 +148,9 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -755,9 +755,9 @@
             <node concept="2es0OD" id="v1yTSo3j1o" role="2OqNvi">
               <node concept="1bVj0M" id="v1yTSo3j1q" role="23t8la">
                 <node concept="3clFbS" id="v1yTSo3j1r" role="1bW5cS">
-                  <node concept="34ab3g" id="v1yTSof5l3" role="3cqZAp">
-                    <property role="35gtTG" value="info" />
-                    <node concept="3cpWs3" id="v1yTSof68L" role="34bqiv">
+                  <node concept="2xdQw9" id="6XBFSUNH6Y4" role="3cqZAp">
+                    <property role="2xdLsb" value="info" />
+                    <node concept="3cpWs3" id="v1yTSof68L" role="9lYJi">
                       <node concept="2OqwBi" id="v1yTSof6mr" role="3uHU7w">
                         <node concept="37vLTw" id="v1yTSof6ew" role="2Oq$k0">
                           <ref role="3cqZAo" node="v1yTSo3j1s" resolve="altMapper" />
@@ -852,9 +852,9 @@
                     </node>
                     <node concept="9aQIb" id="v1yTSof7Bg" role="9aQIa">
                       <node concept="3clFbS" id="v1yTSof7Bh" role="9aQI4">
-                        <node concept="34ab3g" id="v1yTSof7km" role="3cqZAp">
-                          <property role="35gtTG" value="warn" />
-                          <node concept="3cpWs3" id="v1yTSof8mS" role="34bqiv">
+                        <node concept="2xdQw9" id="6XBFSUNH6Yi" role="3cqZAp">
+                          <property role="2xdLsb" value="warn" />
+                          <node concept="3cpWs3" id="v1yTSof8mS" role="9lYJi">
                             <node concept="2OqwBi" id="v1yTSof8IG" role="3uHU7w">
                               <node concept="37vLTw" id="v1yTSof8By" role="2Oq$k0">
                                 <ref role="3cqZAo" node="v1yTSo3j1s" resolve="altMapper" />
