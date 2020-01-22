@@ -2,10 +2,10 @@
 <model ref="r:37023354-91d9-4c64-bbdc-c9a7e0cd2017(org.campagnelab.antlr.tomps.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="96ee7a94-411d-4cf8-9b94-96cad7e52411" name="jetbrains.mps.baseLanguage.jdk7" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -45,9 +45,6 @@
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -353,11 +350,11 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
-        <property id="1757699476691236116" name="linkRole" index="2qtEX8" />
+        <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -365,7 +362,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -769,7 +766,6 @@
     <node concept="2tJIrI" id="5qM9mr9p$Re" role="jymVt" />
     <node concept="3clFb_" id="v1yTSnUeKz" role="jymVt">
       <property role="TrG5h" value="visitRuleContext" />
-      <property role="IEkAT" value="false" />
       <node concept="37vLTG" id="v1yTSnUvb$" role="3clF46">
         <property role="TrG5h" value="context" />
         <node concept="3uibUv" id="v1yTSnUvt5" role="1tU5fm">
@@ -1540,7 +1536,6 @@
     </node>
     <node concept="2YIFZL" id="3V2IUSr$UM8" role="jymVt">
       <property role="TrG5h" value="trim" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="3V2IUSr$UM9" role="3clF47">
@@ -1677,7 +1672,6 @@
     <node concept="2tJIrI" id="7JSGHIZDnkB" role="jymVt" />
     <node concept="2YIFZL" id="r9xlU4yNMd" role="jymVt">
       <property role="TrG5h" value="mapOperator" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="r9xlU4yNMe" role="3clF47">
@@ -3060,7 +3054,6 @@
       </node>
       <node concept="2YIFZL" id="3V2IUSr$$_F" role="jymVt">
         <property role="TrG5h" value="trim" />
-        <property role="IEkAT" value="false" />
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />
         <node concept="3clFbS" id="3V2IUSr$zfO" role="3clF47">
@@ -3377,7 +3370,6 @@
       <node concept="3Tm1VV" id="14grA08CZL2" role="1B3o_S" />
       <node concept="2YIFZL" id="r9xlU4yD84" role="jymVt">
         <property role="TrG5h" value="mapOperator" />
-        <property role="IEkAT" value="false" />
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />
         <node concept="3clFbS" id="r9xlU4yCce" role="3clF47">

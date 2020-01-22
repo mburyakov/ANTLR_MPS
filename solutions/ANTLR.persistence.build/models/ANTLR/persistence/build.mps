@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="3" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="-1" />
   </languages>
   <imports>
@@ -71,10 +71,17 @@
         <child id="5617550519002745378" name="macros" index="1l3spd" />
         <child id="5617550519002745372" name="layout" index="1l3spN" />
       </concept>
+      <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
+        <property id="8654221991637384184" name="pattern" index="3qWCbO" />
+      </concept>
       <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
+      <concept id="5248329904287794596" name="jetbrains.mps.build.structure.BuildInputFiles" flags="ng" index="3LXTmp">
+        <child id="5248329904287794598" name="dir" index="3LXTmr" />
+        <child id="5248329904287794679" name="selectors" index="3LXTna" />
+      </concept>
       <concept id="4903714810883702019" name="jetbrains.mps.build.structure.BuildTextStringPart" flags="ng" index="3Mxwew">
         <property id="4903714810883755350" name="text" index="3MwjfP" />
       </concept>
@@ -108,6 +115,7 @@
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
+        <child id="3570488090019868128" name="packagingType" index="pUk7w" />
       </concept>
       <concept id="6592112598314499036" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginModule" flags="ng" index="m$_yB">
         <reference id="6592112598314499037" name="target" index="m$_yA" />
@@ -115,6 +123,7 @@
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
+      <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
@@ -130,6 +139,9 @@
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
+      </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
@@ -262,6 +274,7 @@
               </node>
             </node>
           </node>
+          <node concept="pUk6x" id="nNzLHjiqqB" role="pUk7w" />
         </node>
       </node>
     </node>
@@ -420,6 +433,21 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
+        <node concept="3rtmxn" id="nNzLHjiqpD" role="3bR31x">
+          <node concept="3LXTmp" id="nNzLHjiqpE" role="3rtmxm">
+            <node concept="3qWCbU" id="nNzLHjiqpF" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="nNzLHjiqpG" role="3LXTmr">
+              <node concept="2Ry0Ak" id="nNzLHjiqpH" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="nNzLHjiqpI" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.antlr.parsers" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5U7ZKlHMwce" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -461,6 +489,21 @@
                   <node concept="2Ry0Ak" id="5U7ZKlHNTBs" role="2Ry0An">
                     <property role="2Ry0Am" value="grammarsv4.jar" />
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="nNzLHjiqpR" role="3bR31x">
+          <node concept="3LXTmp" id="nNzLHjiqpS" role="3rtmxm">
+            <node concept="3qWCbU" id="nNzLHjiqpT" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="nNzLHjiqpU" role="3LXTmr">
+              <node concept="2Ry0Ak" id="nNzLHjiqpV" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="nNzLHjiqpW" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.ANTLR" />
                 </node>
               </node>
             </node>
@@ -583,6 +626,21 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
+        <node concept="3rtmxn" id="nNzLHjiqpY" role="3bR31x">
+          <node concept="3LXTmp" id="nNzLHjiqpZ" role="3rtmxm">
+            <node concept="3qWCbU" id="nNzLHjiqq0" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="nNzLHjiqq1" role="3LXTmr">
+              <node concept="2Ry0Ak" id="nNzLHjiqq2" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="nNzLHjiqq3" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.antlr.tomps" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="4t58zGhfAtt" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -628,6 +686,21 @@
           <node concept="3bR9La" id="4t58zGhfAyV" role="1SiIV1">
             <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="5U7ZKlHMwce" resolve="org.campagnelab.ANTLR" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="nNzLHjiqpK" role="3bR31x">
+          <node concept="3LXTmp" id="nNzLHjiqpL" role="3rtmxm">
+            <node concept="3qWCbU" id="nNzLHjiqpM" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="nNzLHjiqpN" role="3LXTmr">
+              <node concept="2Ry0Ak" id="nNzLHjiqpO" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="nNzLHjiqpP" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.antlr.plugin" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
