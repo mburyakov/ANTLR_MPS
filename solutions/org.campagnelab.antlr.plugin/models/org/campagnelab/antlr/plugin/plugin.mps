@@ -24,6 +24,7 @@
       </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
+        <property id="7458746815261976739" name="requiredAccess" index="2YLI8m" />
         <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
@@ -41,7 +42,6 @@
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
       <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
-      <concept id="5678361901872075170" name="jetbrains.mps.lang.plugin.structure.EditableModel" flags="ng" index="3dZWAM" />
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
       <concept id="1217252042208" name="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration" flags="ng" index="1DS2jV">
         <reference id="1217252646389" name="key" index="1DUlNI" />
@@ -138,21 +138,11 @@
     <property role="TrG5h" value="PasteAsAntlrRules" />
     <property role="3GE5qa" value="Actions" />
     <property role="2uzpH1" value="Paste ANTLR Rules" />
-    <node concept="1DS2jV" id="2vs9_ygEfbe" role="1NuT2Z">
-      <property role="TrG5h" value="operationContext" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
-      <node concept="1oajcY" id="7HZe2EwZDia" role="1oa70y" />
-    </node>
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="1DS2jV" id="2vs9_ygEfbf" role="1NuT2Z">
       <property role="TrG5h" value="anchorNode" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.NODE" resolve="NODE" />
       <node concept="1oajcY" id="7HZe2EwZDil" role="1oa70y" />
-    </node>
-    <node concept="1DS2jV" id="34D$71tXqRe" role="1NuT2Z">
-      <property role="TrG5h" value="model" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.CONTEXT_MODEL" resolve="CONTEXT_MODEL" />
-      <node concept="1oajcY" id="34D$71tXqRf" role="1oa70y" />
-      <node concept="3dZWAM" id="34D$71tXqRg" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="MCyGswqxby" role="1NuT2Z">
       <property role="TrG5h" value="mpsProject" />
@@ -179,12 +169,6 @@
                 <node concept="2WthIp" id="2vs9_ygEfbo" role="2Oq$k0" />
                 <node concept="1DTwFV" id="2vs9_ygEfbp" role="2OqNvi">
                   <ref role="2WH_rO" node="2vs9_ygEfbf" resolve="anchorNode" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="2vs9_ygEfbq" role="37wK5m">
-                <node concept="2WthIp" id="2vs9_ygEfbr" role="2Oq$k0" />
-                <node concept="1DTwFV" id="2vs9_ygEfbs" role="2OqNvi">
-                  <ref role="2WH_rO" node="2vs9_ygEfbe" resolve="operationContext" />
                 </node>
               </node>
               <node concept="2OqwBi" id="MCyGswqxb$" role="37wK5m">

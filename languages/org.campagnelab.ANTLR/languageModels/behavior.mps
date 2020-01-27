@@ -9,6 +9,7 @@
   </languages>
   <imports>
     <import index="ubjp" ref="r:579fcb2d-4d1f-46c6-93f9-98775dc55169(org.campagnelab.ANTLR.structure)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1536,6 +1537,22 @@
         </node>
       </node>
       <node concept="17QB3L" id="4TgqxIxswTj" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="4ak6RTbY8Dp" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3Tm1VV" id="4ak6RTbY8DO" role="1B3o_S" />
+      <node concept="3clFbS" id="4ak6RTbY8DP" role="3clF47">
+        <node concept="3clFbF" id="4ak6RTbY8Ki" role="3cqZAp">
+          <node concept="2OqwBi" id="4ak6RTbY8WL" role="3clFbG">
+            <node concept="13iPFW" id="4ak6RTbY8Kd" role="2Oq$k0" />
+            <node concept="3TrcHB" id="4ak6RTbY9a6" role="2OqNvi">
+              <ref role="3TsBF5" to="ubjp:4TgqxIxswTo" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="4ak6RTbY8DQ" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="4TgqxIxvdsq">
