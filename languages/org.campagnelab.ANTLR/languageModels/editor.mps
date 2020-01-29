@@ -19,6 +19,7 @@
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <property id="1156252885376" name="separatorLayoutConstraint" index="Q2I2d" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
@@ -1515,6 +1516,26 @@
         <ref role="1NtTu8" to="ubjp:v1yTSnHWsJ" resolve="element" />
       </node>
       <node concept="l2Vlx" id="v1yTSnJDAY" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4ak6RTcwqui">
+    <ref role="1XX52x" to="ubjp:1UP91OU54st" resolve="BlockSet" />
+    <node concept="3EZMnI" id="4ak6RTcwquq" role="2wV5jI">
+      <node concept="3F0ifn" id="4ak6RTcwquz" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F2HdR" id="4ak6RTcwquP" role="3EZMnx">
+        <property role="2czwfO" value="|" />
+        <ref role="1NtTu8" to="ubjp:1UP91OU5lTB" resolve="elements" />
+        <node concept="l2Vlx" id="4ak6RTcwquR" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="4ak6RTcwquF" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="PMmxH" id="4ak6RTcwqur" role="3EZMnx">
+        <ref role="PMmxG" node="6cuUYchfkRC" resolve="OptionalParamEditor" />
+      </node>
+      <node concept="l2Vlx" id="4ak6RTcwqus" role="2iSdaV" />
     </node>
   </node>
 </model>

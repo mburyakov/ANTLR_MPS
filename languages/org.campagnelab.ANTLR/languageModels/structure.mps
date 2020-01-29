@@ -234,9 +234,6 @@
     <node concept="PrWs8" id="4UG6ID2UW$q" role="PzmwI">
       <ref role="PrY4T" node="4UG6ID2UsrC" resolve="ToTextOutput" />
     </node>
-    <node concept="PrWs8" id="4UG6ID2UWZs" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6cuUYchfAlZ">
     <property role="TrG5h" value="StringLiteral" />
@@ -447,7 +444,7 @@
     <node concept="1TJgyj" id="1lrVu1zPLOj" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="elements" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="1539085245680655635" />
       <ref role="20lvS9" node="4TgqxIxvddj" resolve="LexerAltList" />
     </node>
